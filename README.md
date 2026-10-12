@@ -57,6 +57,16 @@ CAD images in this repository are renders of the actual generated geometry. They
 
 For a real Excel-to-launcher recording, use the [demonstration storyboard](presentation/demo-storyboard.md). It identifies the required native application captures and any shortened calculation wait.
 
+## Excel controls and generated report
+
+![Actual native Excel input worksheet export](media/excel-control.png)
+
+Edit the amber cells, save the workbook and start the launcher. The inputs are validated for units and bounds; a new run preserves its own input copy. These captures were exported by Excel itself. The author's Excel locale uses a decimal comma; stored numerical values are locale independent.
+
+![Actual page from the included English technical report](media/report-results.png)
+
+The report presents calculated results, real CAD geometry, methodology, verification and unresolved physical limitations. [Open the eight-page PDF](docs/cantax-technical-report.pdf). Selected editable [baseline CAD](examples/verified_runs/baseline/cad/) and [five-blade CAD](examples/verified_runs/five_blades/cad/) examples include FCStd and STEP files; the source regenerates the full families.
+
 ## Run a demonstration
 
 The saved-results demonstration does not need Excel, MATLAB, an AI account or an API key. After installing the Python requirements in your own environment:
