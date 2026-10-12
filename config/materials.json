@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "reviewed_date": "2026-10-12",
+  "default_material_id": "NAB_C95800",
+  "units": "SI: kg/m3, Pa; dimensionless Poisson ratio",
+  "materials": [
+    {
+      "id": "NAB_C95800",
+      "label": "Bronce níquel-aluminio UNS C95800",
+      "density_kgm3": 7640.0,
+      "elastic_modulus_Pa": 113763495337.272,
+      "poisson_ratio": 0.32,
+      "yield_strength_Pa": null,
+      "property_class": "PUBLIC_TYPICAL_NOT_CERTIFIED",
+      "temperature_C": 20,
+      "source_urls": ["https://alloys.copper.org/alloy/C95800"],
+      "source_values": {"specific_gravity": 7.64, "elastic_modulus_ksi": 16500, "poisson_ratio": 0.32},
+      "conversion": "specific gravity *1000 kg/m3; ksi *6894757.293168 Pa",
+      "service_basis": "No casting certificate, heat treatment, seawater fatigue/cavitation data or class acceptance supplied; no allowable stress or safety factor calculated."
+    },
+    {
+      "id": "SS316L",
+      "label": "Acero inoxidable 316L / EN 1.4404 (datos de producto plano)",
+      "density_kgm3": 8000.0,
+      "elastic_modulus_Pa": 200000000000.0,
+      "poisson_ratio": null,
+      "yield_strength_Pa": null,
+      "property_class": "PUBLIC_MANUFACTURER_REFERENCE_NOT_CERTIFIED",
+      "temperature_C": 20,
+      "source_urls": ["https://www.outokumpu.com/en/products/product-ranges/-/media/files/products/supra/outokumpu-supra-range-datasheet.pdf?modified=20251117111951&revision=7a909396-d1f3-4d36-9c1c-99606be41fd2"],
+      "source_values": {"density_kgdm3": 8.0, "elastic_modulus_GPa": 200},
+      "conversion": "kg/dm3 *1000; GPa *1e9",
+      "service_basis": "Flat-product reference cannot certify a cast or forged propeller; Poisson ratio and service allowables remain DATA REQUIRED."
+    },
+    {
+      "id": "AL6061_T6",
+      "label": "Aluminio 6061-T6 (referencia extruida; masa solamente)",
+      "density_kgm3": 2712.630661599906,
+      "elastic_modulus_Pa": null,
+      "poisson_ratio": null,
+      "yield_strength_Pa": null,
+      "property_class": "PUBLIC_MANUFACTURER_REFERENCE_NOT_CERTIFIED",
+      "temperature_C": 20,
+      "source_urls": ["https://www.hydro.com/globalassets/01-products--services/extruded-profiles/americas/ena-resources/alloy-data-sheets/hydro_2019_data_sheet_6061.pdf"],
+      "source_values": {"density_lbin3": 0.098},
+      "conversion": "lb/in3 *27679.9047102 kg/m3",
+      "service_basis": "Extruded product, not marine propeller approval. E, nu, fatigue, corrosion/cavitation and final manufacturing route DATA REQUIRED."
+    }
+  ],
+  "composites": {"status": "NO_CALCULADO", "reason": "No orthotropic stiffness, orientations, strength envelopes or manufacturing/service evidence supplied."}
+}

@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "license": "MIT",
+  "license_url": "https://opensource.org/license/mit",
+  "metadata_edits": [
+    "Document license and URL",
+    "Regeneration launcher instruction"
+  ],
+  "public_files": {
+    "BASE.FCStd": "54dbaf8cbf3adae76520df7083f54cf1e5b494fb24fda84cd4f5b01806382b4f",
+    "BASE.step": "211a55a754e892eaa9aa4918425c137e165d5b1a3c0e954eebd69d0d2ed10733"
+  },
+  "original_fcstd_sha256": "83549b06a4ebf43e57df56016a5a7d86b1febfbca10da55a577977b86883dbc1",
+  "step_bytes_unchanged": true,
+  "preserved_geometry_members": {
+    "Propeller.Shape.brp": {
+      "before_sha256": "ecb08173fc13f06241a343e96970c99f863cb0374d90b99f1aa63e3c183809e6",
+      "after_sha256": "ecb08173fc13f06241a343e96970c99f863cb0374d90b99f1aa63e3c183809e6",
+      "unchanged": true
+    },
+    "Propeller.Shape.Map.txt": {
+      "before_sha256": "3e844237b66eec611c89f72f32775840d627ee6fb98f90016b0fd6a6e40f4cc6",
+      "after_sha256": "3e844237b66eec611c89f72f32775840d627ee6fb98f90016b0fd6a6e40f4cc6",
+      "unchanged": true
+    },
+    "Propeller.SuppressedShape.brp": {
+      "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    }
+  },
+  "expected_volume_m3": 0.0003564570746956503,
+  "privacy_scan": "No personal filesystem paths or credential metadata detected; no geometry payload edits",
+  "native_reopen_verification": {
+    "status": "PASS",
+    "application": "FreeCAD",
+    "version": [
+      "1",
+      "1",
+      "4"
+    ],
+    "method": "Native reopened FCStd and STEP; no regeneration or save",
+    "fcstd": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_m3": 0.00035645707469565024,
+      "license": "MIT",
+      "license_url": "https://opensource.org/license/mit",
+      "blades": 4,
+      "relative_volume_error": 1.1102230246251565e-16
+    },
+    "step": {
+      "valid": true,
+      "closed": true,
+      "solids": 1,
+      "volume_m3": 0.00035645624173380214,
+      "relative_volume_error_vs_source_cad": 2.336780238865188e-06,
+      "historical_step_volume_m3": 0.00035645624173380214,
+      "relative_volume_error_vs_historical_step": 0.0,
+      "historical_cad_export_relative_tolerance": 0.0001
+    }
+  },
+  "public_artifacts_unchanged_after_reopen": true,
+  "original_source_unchanged": true,
+  "volume_matching_criteria": "FCStd matches original generated CAD to relative 1e-10; STEP matches original STEP reopen to relative 1e-10 and preserves the original CAD-export tolerance 1e-4. Native STEP serialization differences are reported, never hidden."
+}

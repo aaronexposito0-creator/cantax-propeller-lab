@@ -1,0 +1,24 @@
+{
+  "application": "Scilab",
+  "version": "scilab-2026.1.0",
+  "status": "PASS",
+  "scope": "Independent angular-velocity SI/definition/energy checks; no BEM physical validation",
+  "relative_tolerance": 1e-08,
+  "absolute_tolerance": 1e-10,
+  "rows_checked": 13,
+  "numeric_checks": 80,
+  "maximum_absolute_difference": 1.7763568394002505e-15,
+  "worst_relative_difference": 4.2657384208240104e-16,
+  "worst_tolerance_fraction": 3.507075224050419e-08,
+  "tolerance_fraction": {
+    "J": 1.2215167752599523e-08,
+    "KT": 3.507075224050419e-08,
+    "KQ": 3.262817376392636e-08,
+    "P_W": 0,
+    "eta0": 0,
+    "Q_from_P": 1.4535360406936095e-08
+  },
+  "unit_volume_1mm3_m3": 1e-09,
+  "unit_volume_expected_m3": 1e-09,
+  "rpm_roundtrip_max_abs_error": 0
+}

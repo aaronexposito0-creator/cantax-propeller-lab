@@ -1,0 +1,6 @@
+{
+  "propeller_inertia_kgm2": 0.010252380353986587,
+  "input_total_inertia_kgm2": 0.05,
+  "passed": true,
+  "classification": "Total shaft inertia is a user scenario; CAD contribution is geometrically derived"
+}

@@ -1,0 +1,13 @@
+{
+  "accessed_date": "2026-10-12",
+  "sources": [
+    {"id":"BLADEAD_BEM","title":"BladeAD: Blade element momentum theory","url":"https://bladead.readthedocs.io/en/latest/src/background/bem.html","use":"Propeller axial/angular balances and blade force projections; official software documentation","physical_validation_claim":false},
+    {"id":"LIBURDY_THIN_AIRFOIL","title":"James Liburdy, Intermediate Fluid Mechanics, VI The Panel Method","url":"https://open.oregonstate.education/intermediate-fluid-mechanics/chapter/the-panel-method-an-introduction/","use":"Equation6.21 and small-angle limit Cl≈2pi alpha; authored university textbook","physical_validation_claim":false},
+    {"id":"ITTC_CF_2024","title":"ITTC 7.5-02-05-01 High Speed Marine Vehicles Resistance Test, 2024 Rev04","url":"https://www.ittc.info/media/11846/75-02-05-01.pdf","use":"ITTC1957 friction line only; Cd=2Cf applied to blade faces is our explicit approximation","physical_validation_claim":false},
+    {"id":"NREL_PRANDTL","title":"Ning et al., Development and Validation of a New BEM Skewed-Wake Model within AeroDyn, NREL/CP-5000-63217, December2014","url":"https://docs.nrel.gov/docs/fy15osti/63217.pdf","use":"Prandtl tip/hub factors equations11-15; factor geometry only, not turbine induction sign or empirical highload correction","access_note":"Primary indexed PDF passages read through public search; open fetch returned502","physical_validation_claim":false},
+    {"id":"ITTC_OPEN_WATER_2014","title":"ITTC Open Water Test 7.5-02-03-02.1, 2014 Rev03","url":"https://www.ittc.info/media/4074/75-02-03-021.pdf","use":"Definitions J KT KQ eta0 only; no experimental data imported","physical_validation_claim":false},
+    {"id":"NASA_DRAG","title":"NASA Glenn: Inclination Effects on Drag","url":"https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/inclination-effects-on-drag/","use":"Caution about drag/separation and need for section-specific tests","physical_validation_claim":false},
+    {"id":"MATHWORKS_LOOKUP","title":"MathWorks 1-D Lookup Table","url":"https://www.mathworks.com/help/simulink/slref/1dlookuptable.html","use":"Lookup interpolation and Clip behavior; runtime tested in R2026a","physical_validation_claim":false},
+    {"id":"PDAS_NACA_THICKNESS","title":"PDAS Four Digit Thickness Distribution of a NACA Airfoil","url":"https://www.pdas.com/naca456thick4.html","use":"CAD thickness polynomial basis; -.1036 closedTE is our algebraic modification, not exact published NACA -.1015","physical_validation_claim":false}
+  ]
+}

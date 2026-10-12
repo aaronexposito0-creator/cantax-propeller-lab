@@ -1,0 +1,16 @@
+{
+  "classification": "Historical synthetic local run; numerical consistency and engine integration verified, not experimentally validated",
+  "source_run": "five_blades",
+  "source_date": "2026-10-12",
+  "status": "COMPLETED",
+  "private_paths_and_logs_excluded": true,
+  "models_saved_reopened": 13,
+  "formats_checked": [
+    "FCStd",
+    "STEP"
+  ],
+  "simulink_save_reopen_max_difference": 0,
+  "native_workbook_error_count": 0,
+  "pdf_pages_reviewed": 11,
+  "current_public_checks": "Run python scripts/run_lab.py --demo to check saved numerical definitions; this does not rerun native engines."
+}

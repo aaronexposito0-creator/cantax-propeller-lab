@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "case_name": "CantaX educational open-water reference",
+  "geometry": {
+    "diameter_m": 0.3,
+    "blades": 4,
+    "pitch_ratio": 0.8,
+    "expanded_area_ratio": 0.55,
+    "thickness_ratio": 0.08,
+    "skew_deg": 12.0,
+    "rake_ratio": 0.04,
+    "hub_ratio": 0.2
+  },
+  "operation": {
+    "rpm": 900.0,
+    "advance_mps": 2.0,
+    "available_power_W": 3000.0,
+    "required_thrust_N": 100.0,
+    "shaft_depth_m": 1.5,
+    "salinity_ppt": 35.0,
+    "water_density_kgm3": 1025.0,
+    "water_kinematic_viscosity_m2s": 1.19e-06,
+    "water_vapor_pressure_Pa": 2339.0,
+    "ambient_pressure_Pa": 101325.0
+  },
+  "material": "NAB_C95800",
+  "objectives": {
+    "maximum_mass_kg": 8.0
+  },
+  "radial_distribution": [
+    {
+      "pitch_factor": 1.0,
+      "chord_weight": 0.38,
+      "rake_factor": 0.0,
+      "r_R": 0.18,
+      "thickness_factor": 1.25,
+      "skew_factor": 0.0
+    },
+    {
+      "pitch_factor": 1.0,
+      "chord_weight": 0.75,
+      "rake_factor": 0.1,
+      "r_R": 0.3,
+      "thickness_factor": 1.18,
+      "skew_factor": 0.1
+    },
+    {
+      "pitch_factor": 1.0,
+      "chord_weight": 1.0,
+      "rake_factor": 0.28,
+      "r_R": 0.45,
+      "thickness_factor": 1.1,
+      "skew_factor": 0.28
+    },
+    {
+      "pitch_factor": 1.0,
+      "chord_weight": 1.08,
+      "rake_factor": 0.48,
+      "r_R": 0.6,
+      "thickness_factor": 1.0,
+      "skew_factor": 0.48
+    },
+    {
+      "pitch_factor": 1.0,
+      "chord_weight": 0.98,
+      "rake_factor": 0.7,
+      "r_R": 0.75,
+      "thickness_factor": 0.88,
+      "skew_factor": 0.7
+    },
+    {
+      "pitch_factor": 1.0,
+      "chord_weight": 0.72,
+      "rake_factor": 0.86,
+      "r_R": 0.88,
+      "thickness_factor": 0.78,
+      "skew_factor": 0.86
+    },
+    {
+      "pitch_factor": 1.0,
+      "chord_weight": 0.32,
+      "rake_factor": 0.97,
+      "r_R": 0.97,
+      "thickness_factor": 0.68,
+      "skew_factor": 0.97
+    },
+    {
+      "pitch_factor": 1.0,
+      "chord_weight": 0.08,
+      "rake_factor": 1.0,
+      "r_R": 1.0,
+      "thickness_factor": 0.65,
+      "skew_factor": 1.0
+    }
+  ],
+  "dynamic": {
+    "shaft_inertia_kgm2": 0.05,
+    "kp_Nm_per_radps": 0.6,
+    "ki_Nm_per_rad": 0.8,
+    "motor_torque_limit_Nm": 25.0,
+    "duration_s": 18.0
+  },
+  "sample_family": {
+    "blades": [
+      3,
+      4,
+      5
+    ],
+    "pitch_ratio": [
+      0.7,
+      0.9
+    ],
+    "expanded_area_ratio": [
+      0.5,
+      0.65
+    ]
+  },
+  "input_classification": "All default operating/design choices are explicit demo SCENARIO inputs, not measurements or a vessel design. Material properties require sourced config/materials.json.",
+  "material_density_kgm3": 7640.0,
+  "selected_material_properties": {
+    "id": "NAB_C95800",
+    "label": "Bronce níquel-aluminio UNS C95800",
+    "density_kgm3": 7640.0,
+    "elastic_modulus_Pa": 113763495337.272,
+    "poisson_ratio": 0.32,
+    "yield_strength_Pa": null,
+    "property_class": "PUBLIC_TYPICAL_NOT_CERTIFIED",
+    "temperature_C": 20,
+    "source_urls": [
+      "<local artifact path removed>"
+    ],
+    "source_values": {
+      "specific_gravity": 7.64,
+      "elastic_modulus_ksi": 16500,
+      "poisson_ratio": 0.32
+    },
+    "conversion": "specific gravity *1000 kg/m3; ksi *6894757.293168 Pa",
+    "service_basis": "No casting certificate, heat treatment, seawater fatigue/cavitation data or class acceptance supplied; no allowable stress or safety factor calculated."
+  }
+}

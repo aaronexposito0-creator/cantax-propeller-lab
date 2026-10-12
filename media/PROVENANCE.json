@@ -1,0 +1,43 @@
+{
+  "classification": "Real output walkthrough, not a live application recording",
+  "duration_seconds": 45.5,
+  "parameter_edit": "Native Excel copy: Control!B14 900 -> 1000; exported/readback verified; no simulation implied by edit frame",
+  "fresh_pipeline": "Public distribution baseline900, all native stages completed",
+  "geometry_and_curves": "Saved verified engineering outputs; historical RPM/geometry tests documented in examples",
+  "native_worksheet_images": [
+    "excel-control.png",
+    "excel-rpm-1000.png",
+    "excel-results.png"
+  ],
+  "report_images": [
+    "report-cover.png",
+    "report-results.png",
+    "report-study.png"
+  ],
+  "frame_files": [
+    "excel-control.png",
+    "excel-rpm-1000.png",
+    "verified-pipeline.png",
+    "propeller-comparison.png",
+    "excel-results.png",
+    "hydro-curves.png",
+    "report-results.png"
+  ],
+  "hashes": {
+    "cad-five-blades.png": "73f0be97f3bdc0646caa0d1e42109ce66b16ba002fa60f3ebbd4f7005e71575e",
+    "cad-three-blades.png": "3f991ab01d6e7f04311ed1ab259262b7d2286290aa374bf30a9d704d114b083d",
+    "demo-results.gif": "8668ac723d8f1b09c43e54b5c3c9c998dec0c36148a90d8818e86a54038fbd9e",
+    "dynamics.png": "6761f792ecfb2bba5c7fa6f6b712b267b86e3b1c2de5ba74e3aa414faba4e92e",
+    "excel-control.png": "7efa952f136e654c4ebd9feaa796ba71cbfaf496a3b8cb445374d09d389291fc",
+    "excel-results.png": "cbc3a5dfc59ff660a2bd54c93b15e2af474fd8029550f75dd9d7ae7b0ccafecc",
+    "excel-rpm-1000.png": "11e8f5645f477fe99fb34b9c810b0d2655a68061ccc5d6f7122b76799804ec2f",
+    "hero.png": "071a84b0d17b8d78edcfea865f6616317c396defcc1d471fcd0026ba078107d9",
+    "hydro-curves.png": "b2691c7d69eafbda989713ba969f906248862549acda3c0fc484bfacd7778958",
+    "mesh.png": "20932578f6e8dfee4e4ffd64efe77dc7de090f8c2864a73807bd826b39764e9e",
+    "propeller-comparison.png": "fbd6355d7704217b18a3df249b4a27c08f3c9be6712419a6818a27bebb0345be",
+    "report-cover.png": "ca82d40343d665d48a79b0d2854f73ce9a0882c113a0c74687a8d59415ffca0e",
+    "report-results.png": "a58d4fe6946c490bd206edbf5dd43d07ccb6409a2bcef2f9dd29d2e9268cb675",
+    "report-study.png": "630fc510ccf14a04027747ff4ebcea55699fae9a8edcffa64b989b02c4331f78",
+    "verified-pipeline.png": "07eed87dea5cf487bbf844eea42b34a1905622995beed1cfd2a3e5c98b4829cc"
+  }
+}

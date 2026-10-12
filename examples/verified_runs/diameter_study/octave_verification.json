@@ -1,0 +1,25 @@
+{
+  "application": "GNU Octave",
+  "version": "11.3.0",
+  "status": "PASS",
+  "scope": "Independent SI/definition/energy consistency checks; no BEM physical validation",
+  "relative_tolerance": 1e-08,
+  "absolute_tolerance": 1e-10,
+  "rows_checked": 13,
+  "numeric_checks": 80,
+  "maximum_absolute_difference": 1.7763568394002505e-15,
+  "worst_relative_difference": 1.454726396820389e-16,
+  "worst_relative_difference_decimal": "1.4547263968203891e-16",
+  "worst_tolerance_fraction": 1.4535360406936095e-08,
+  "tolerance_fraction": {
+    "J": 0,
+    "KT": 0,
+    "KQ": 0,
+    "P_W": 0,
+    "eta0": 0,
+    "Q_from_P": 1.4535360406936095e-08
+  },
+  "unit_volume_1mm3_m3": 1e-09,
+  "unit_volume_expected_m3": 1e-09,
+  "rpm_roundtrip_max_abs_error": 1.1368683772161603e-13
+}

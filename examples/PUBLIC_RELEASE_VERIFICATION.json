@@ -1,0 +1,187 @@
+{
+  "status": "PASS",
+  "execution_date": "2026-10-12",
+  "scope": "Fresh native baseline run of public distribution; historic parameter-change studies retained without repeating unchanged calculations",
+  "unit_tests_passed": 12,
+  "saved_demo": {
+    "cases": 4,
+    "numeric_identities": 260,
+    "historical_solid_records": 52
+  },
+  "stages": [
+    {
+      "name": "excel_read",
+      "status": "VERIFIED_EXECUTION",
+      "exit_code": 0
+    },
+    {
+      "name": "freecad",
+      "status": "VERIFIED_EXECUTION",
+      "exit_code": 0
+    },
+    {
+      "name": "matlab_simulink",
+      "status": "VERIFIED_EXECUTION",
+      "exit_code": 0
+    },
+    {
+      "name": "gmsh_calculix",
+      "status": "VERIFIED_EXECUTION",
+      "exit_code": 0
+    },
+    {
+      "name": "octave",
+      "status": "VERIFIED_EXECUTION",
+      "exit_code": 0
+    },
+    {
+      "name": "scilab",
+      "status": "VERIFIED_EXECUTION",
+      "exit_code": 0
+    },
+    {
+      "name": "cad_images",
+      "status": "PROCESS_COMPLETED",
+      "exit_code": 0
+    },
+    {
+      "name": "results_excel",
+      "status": "PROCESS_COMPLETED",
+      "exit_code": 0
+    },
+    {
+      "name": "excel_verify",
+      "status": "VERIFIED_EXECUTION",
+      "exit_code": 0
+    },
+    {
+      "name": "report_pdf",
+      "status": "PROCESS_COMPLETED",
+      "exit_code": 0
+    }
+  ],
+  "case": {
+    "diameter_m": 0.3,
+    "blades": 4,
+    "pitch_ratio": 0.8,
+    "rpm": 900,
+    "advance_mps": 2
+  },
+  "freecad": {
+    "version": [
+      "1",
+      "1",
+      "4",
+      "20260928 (Git shallow)",
+      "Unknown",
+      "2026/09/28 13:46:34",
+      "(HEAD detached at 4fd3bf320)",
+      "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+    ],
+    "solid_count": 13,
+    "all_valid_closed_single_solid": true,
+    "formats_saved_reopened": [
+      "FCStd",
+      "STEP"
+    ]
+  },
+  "matlab": {
+    "version": "26.1.0.3251617 (R2026a) Update 2",
+    "baseline": {
+      "T_N": 350.3489842237339,
+      "Q_Nm": 13.555366245058964,
+      "P_W": 1277.563170365889,
+      "KT": 0.18754671442938012,
+      "KQ": 0.024187924199643513,
+      "eta0": 0.5484644397245663,
+      "J": 0.4444444444444444
+    },
+    "relative_difference_from_historical_baseline": {
+      "T_N": 0.0,
+      "Q_Nm": 0.0,
+      "P_W": 0.0,
+      "KT": 0.0,
+      "KQ": 0.0,
+      "eta0": 0.0
+    }
+  },
+  "simulink": {
+    "status": "passed",
+    "model_save_reopen_trace_difference": 0,
+    "energy_balance_relative_error": 0.001072368585896382,
+    "motor_capacity_feasible": true
+  },
+  "gmsh": {
+    "version": "4.15.0",
+    "meshes": [
+      {
+        "tetrahedra": 8996,
+        "status": "PASS",
+        "relative_volume_error": 0.009303112630409394,
+        "degenerate_elements": 0,
+        "negative_orientation_elements": 0,
+        "nonmanifold_faces": 0,
+        "quality": {
+          "metric": "tetrahedron mean ratio 12*(3*V)^(2/3)/sum(edge_length_squared)",
+          "minimum": 0.02653254430595832,
+          "p05": 0.460108656088716,
+          "median": 0.8173194113589802,
+          "maximum": 0.9984181422873073,
+          "normalization": "1 for equilateral tetrahedron; 0 for zero volume",
+          "elements_below_0_05": 3
+        }
+      },
+      {
+        "tetrahedra": 19055,
+        "status": "PASS",
+        "relative_volume_error": 0.004854799017659395,
+        "degenerate_elements": 0,
+        "negative_orientation_elements": 0,
+        "nonmanifold_faces": 0,
+        "quality": {
+          "metric": "tetrahedron mean ratio 12*(3*V)^(2/3)/sum(edge_length_squared)",
+          "minimum": 0.01414013161295397,
+          "p05": 0.4868486638067269,
+          "median": 0.7925605764819438,
+          "maximum": 0.999785434244305,
+          "normalization": "1 for equilateral tetrahedron; 0 for zero volume",
+          "elements_below_0_05": 3
+        }
+      }
+    ]
+  },
+  "calculix": {
+    "benchmark": "PASS",
+    "structure": "PRELIMINARY_COMPUTED",
+    "strength_or_service_certification": false
+  },
+  "independent_checks": {
+    "octave": "PASS",
+    "scilab": "PASS"
+  },
+  "excel": {
+    "version": "16.0",
+    "build": "20430",
+    "status": "verified",
+    "formula_error_count": 0,
+    "validated_input_cells": 25,
+    "editable_charts": 1,
+    "panel_freshness": "RESULTADOS VIGENTES"
+  },
+  "run_report": {
+    "pages": 11,
+    "pypdf_used": false,
+    "status": "VISUAL_QA_PASSED",
+    "fonts": "Standard PDF Helvetica family; no Windows TTF embedding",
+    "presentation_only_repair": true,
+    "unchanged_non_presentation_artifacts": 171
+  },
+  "public_report": {
+    "file": "docs/cantax-technical-report.pdf",
+    "pages": 8,
+    "sha256": "f00b4d9587d1a4b125b1c514f6e48cee0024773ac70fc3abd19c1afc21f67fc6",
+    "visual_qa": "PASS"
+  },
+  "review_boundary": "AI-assisted implementation and documented numerical/visual checks; independent human/experimental validation not claimed.",
+  "private_logs_paths_binaries_included": false
+}

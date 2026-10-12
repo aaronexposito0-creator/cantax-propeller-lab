@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "status": "VISUAL_QA_PASSED",
+  "reviewed_at_utc": "2026-10-12T21:32:57.212373+00:00",
+  "review_method": "AI-assisted visual inspection of every locally rendered PNG page; not independent human engineering validation.",
+  "scope": "Published English technical report only. Native full-run report QA is recorded separately in its ignored run directory.",
+  "pdf": {
+    "path": "docs/cantax-technical-report.pdf",
+    "sha256": "f00b4d9587d1a4b125b1c514f6e48cee0024773ac70fc3abd19c1afc21f67fc6",
+    "pages": 8
+  },
+  "rendered_pages": 8,
+  "inspected_pages": 8,
+  "pages": [
+    {
+      "number": 1,
+      "render_sha256": "ca82d40343d665d48a79b0d2854f73ce9a0882c113a0c74687a8d59415ffca0e",
+      "status": "PASS",
+      "comments": "Cover, real CAD render, integration scope and limitation table are readable."
+    },
+    {
+      "number": 2,
+      "render_sha256": "a58d4fe6946c490bd206edbf5dd43d07ccb6409a2bcef2f9dd29d2e9268cb675",
+      "status": "PASS",
+      "comments": "Input-change results and three real CAD geometries fit; model estimates are explicitly labeled."
+    },
+    {
+      "number": 3,
+      "render_sha256": "9e151ff0635f53c23371afc1605535ca76dce4633014f894f18046ebd32a6c59",
+      "status": "PASS",
+      "comments": "Coefficient equations and performance curves are legible; numerical convergence is separated from physical validation."
+    },
+    {
+      "number": 4,
+      "render_sha256": "4273c5b39c6a3afdbc598c7edbb7378053e8d871a7dfdb0382b7f3bcd6737b96",
+      "status": "PASS",
+      "comments": "CAD quantities and two mesh checks are readable; geometry/BEM mismatch is disclosed."
+    },
+    {
+      "number": 5,
+      "render_sha256": "d9fc7e1c42fb59deebc218be5226c8584b5532d194425d360026a37009690a1d",
+      "status": "PASS",
+      "comments": "Benchmark, preliminary elasticity and missing safety allowables are clearly distinguished."
+    },
+    {
+      "number": 6,
+      "render_sha256": "42b9872b6dfff20a2704012a1e74f65526bb7be3492e5b4fd5bc6608dbe00763",
+      "status": "PASS",
+      "comments": "Motor-capacity failures are retained; dynamics plots and startup surrogate limits are legible."
+    },
+    {
+      "number": 7,
+      "render_sha256": "630fc510ccf14a04027747ff4ebcea55699fae9a8edcffa64b989b02c4331f78",
+      "status": "PASS",
+      "comments": "Thirteen design rows fit; ranking excludes uncalculated elasticity and is not presented as a global optimum."
+    },
+    {
+      "number": 8,
+      "render_sha256": "ac1f82bda39bbfee91d858bfea5005bffaba779be64ba4d1e36fba82b20bc3ed",
+      "status": "PASS",
+      "comments": "Fresh release-native execution is distinguished from saved examples; dependency, rights and human-review boundaries are clear."
+    }
+  ],
+  "visual_checks": {
+    "text_clipped": false,
+    "overlap": false,
+    "unreadable_glyphs": false,
+    "blank_unintended_pages": false,
+    "tables_within_page": true,
+    "chart_labels_legible": true,
+    "numbering_consistent": true,
+    "model_limits_present": true
+  },
+  "defects": [],
+  "does_not_establish": [
+    "physical validation",
+    "independent human approval",
+    "manufacturing readiness",
+    "certification"
+  ]
+}

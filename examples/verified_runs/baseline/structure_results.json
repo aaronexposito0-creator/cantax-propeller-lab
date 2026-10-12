@@ -1,0 +1,753 @@
+{
+  "status": "PASS",
+  "programs": {
+    "Gmsh": "gmsh.exe",
+    "CalculiX": "calculix.exe"
+  },
+  "meshes": [
+    {
+      "status": "PASS",
+      "mesh": "mesh_structure/coarse/propeller.msh",
+      "sha256": "549223d6d07fc6d4d0082b79ea9c6a6c08869231bf25c6e366c7057df1a83061",
+      "nodes": 3062,
+      "tetrahedra": 8996,
+      "boundary_triangles": 5820,
+      "units": "m; m3",
+      "summed_volume_m3": 0.0003531409143818504,
+      "cad_volume_m3": 0.0003564570746956503,
+      "relative_volume_error": 0.009303112630409394,
+      "volume_acceptance_tolerance": 0.05,
+      "minimum_tet_volume_m3": 9.98438938921686e-11,
+      "degenerate_elements": 0,
+      "negative_orientation_elements": 0,
+      "minimum_signed_determinant_m3": 5.990633633530116e-10,
+      "nonmanifold_faces": 0,
+      "bounding_box_m": [
+        [
+          -0.147726150695,
+          0.14772615069506
+        ],
+        [
+          -0.147726150695,
+          0.14772615069506
+        ],
+        [
+          -0.03,
+          0.03897524487147801
+        ]
+      ],
+      "quality": {
+        "metric": "tetrahedron mean ratio 12*(3*V)^(2/3)/sum(edge_length_squared)",
+        "minimum": 0.02653254430595832,
+        "p05": 0.460108656088716,
+        "median": 0.8173194113589802,
+        "maximum": 0.9984181422873073,
+        "normalization": "1 for equilateral tetrahedron; 0 for zero volume",
+        "elements_below_0_05": 3
+      },
+      "scope": "Geometric and element checks only. Size variation is not CFD/FEM solution convergence.",
+      "warnings": [
+        "Some tetrahedra have mean ratio below0.05; inspect and refine before solution convergence claims"
+      ],
+      "mesh_size_min_m": 0.0033333333333333335,
+      "mesh_size_max_m": 0.01,
+      "geometric_unit_target": "M",
+      "step_sha256": "211a55a754e892eaa9aa4918425c137e165d5b1a3c0e954eebd69d0d2ed10733"
+    },
+    {
+      "status": "PASS",
+      "mesh": "mesh_structure/fine/propeller.msh",
+      "sha256": "5db9dc58776440b30befad591f2d442336b711be8adcd77a584ee0c9659cbf01",
+      "nodes": 6075,
+      "tetrahedra": 19055,
+      "boundary_triangles": 11028,
+      "units": "m; m3",
+      "summed_volume_m3": 0.0003547265472395801,
+      "cad_volume_m3": 0.0003564570746956503,
+      "relative_volume_error": 0.004854799017659395,
+      "volume_acceptance_tolerance": 0.05,
+      "minimum_tet_volume_m3": 1.2129947621666363e-11,
+      "degenerate_elements": 0,
+      "negative_orientation_elements": 0,
+      "minimum_signed_determinant_m3": 7.277968572999817e-11,
+      "nonmanifold_faces": 0,
+      "bounding_box_m": [
+        [
+          -0.147726150695,
+          0.14772615069506
+        ],
+        [
+          -0.147726150695,
+          0.14772615069506
+        ],
+        [
+          -0.03,
+          0.03900157292204157
+        ]
+      ],
+      "quality": {
+        "metric": "tetrahedron mean ratio 12*(3*V)^(2/3)/sum(edge_length_squared)",
+        "minimum": 0.01414013161295397,
+        "p05": 0.4868486638067269,
+        "median": 0.7925605764819438,
+        "maximum": 0.999785434244305,
+        "normalization": "1 for equilateral tetrahedron; 0 for zero volume",
+        "elements_below_0_05": 3
+      },
+      "scope": "Geometric and element checks only. Size variation is not CFD/FEM solution convergence.",
+      "warnings": [
+        "Some tetrahedra have mean ratio below0.05; inspect and refine before solution convergence claims"
+      ],
+      "mesh_size_min_m": 0.0022222222222222222,
+      "mesh_size_max_m": 0.006666666666666666,
+      "geometric_unit_target": "M",
+      "step_sha256": "211a55a754e892eaa9aa4918425c137e165d5b1a3c0e954eebd69d0d2ed10733"
+    }
+  ],
+  "structure": {
+    "status": "PRELIMINARY_COMPUTED",
+    "classification": "PRELIMINARY_ELASTIC_ESTIMATE",
+    "material_id": "NAB_C95800",
+    "material_class": "PUBLIC_TYPICAL_NOT_CERTIFIED",
+    "constraint": "All 3 translations fixed on nodes r<=hub radius, ideal rigid hub; shaft +Z",
+    "elements": "C3D4 linear tetrahedra; bending stiffness/peak stress require convergence study",
+    "hydro_resultant_force_N": [
+      -2.5735063223248505e-16,
+      -5.638359516692976e-17,
+      350.34898422373385
+    ],
+    "hydro_resultant_torque_Nm": 13.555366245058963,
+    "load_transfer": "Surface-area weights with per-annulus centroid correction preserve axial thrust, torque, zero lateral force and axial-load bending moment; torque force couples can retain bending resultants due to blade rake",
+    "applied_total_force_N": [
+      0.006954607626798871,
+      0.012121075256106983,
+      350.34898422373385
+    ],
+    "applied_total_moment_Nm": [
+      0.00041189819112560705,
+      -0.015055918418630463,
+      13.555366245058963
+    ],
+    "load_transfer_sections": [
+      {
+        "r_inner_m": 0.033,
+        "r_outer_m": 0.034925,
+        "nodes": 49,
+        "thrust_N": 0.647752034498616,
+        "torque_Nm": 0.023911011109811,
+        "axial_centroid_correction_factor_min": 0.8122690095969073,
+        "axial_centroid_correction_factor_max": 1.2347664353423067
+      },
+      {
+        "r_inner_m": 0.034925,
+        "r_outer_m": 0.03685,
+        "nodes": 62,
+        "thrust_N": 0.864115434013153,
+        "torque_Nm": 0.0312705256320684,
+        "axial_centroid_correction_factor_min": 0.8009600086164346,
+        "axial_centroid_correction_factor_max": 1.2447648965747509
+      },
+      {
+        "r_inner_m": 0.03685,
+        "r_outer_m": 0.038775,
+        "nodes": 48,
+        "thrust_N": 1.08151091649192,
+        "torque_Nm": 0.0387266137433253,
+        "axial_centroid_correction_factor_min": 0.7059990887340394,
+        "axial_centroid_correction_factor_max": 1.4041223339304072
+      },
+      {
+        "r_inner_m": 0.038775,
+        "r_outer_m": 0.0407,
+        "nodes": 40,
+        "thrust_N": 1.30295599694789,
+        "torque_Nm": 0.0464004107460995,
+        "axial_centroid_correction_factor_min": 0.694726593946794,
+        "axial_centroid_correction_factor_max": 1.4510965922129453
+      },
+      {
+        "r_inner_m": 0.0407,
+        "r_outer_m": 0.042625,
+        "nodes": 64,
+        "thrust_N": 1.52895322539218,
+        "torque_Nm": 0.0543223711378816,
+        "axial_centroid_correction_factor_min": 0.8603900489065509,
+        "axial_centroid_correction_factor_max": 1.1626728976189433
+      },
+      {
+        "r_inner_m": 0.042625,
+        "r_outer_m": 0.04455,
+        "nodes": 43,
+        "thrust_N": 1.75910755280525,
+        "torque_Nm": 0.0624895826297239,
+        "axial_centroid_correction_factor_min": 0.8092663304326595,
+        "axial_centroid_correction_factor_max": 1.240365420618052
+      },
+      {
+        "r_inner_m": 0.04455,
+        "r_outer_m": 0.046475,
+        "nodes": 56,
+        "thrust_N": 1.98990655676887,
+        "torque_Nm": 0.0707303081633448,
+        "axial_centroid_correction_factor_min": 0.8776271712169367,
+        "axial_centroid_correction_factor_max": 1.1414388912601212
+      },
+      {
+        "r_inner_m": 0.046475,
+        "r_outer_m": 0.0484,
+        "nodes": 65,
+        "thrust_N": 2.21428972181384,
+        "torque_Nm": 0.0786833693335028,
+        "axial_centroid_correction_factor_min": 0.9268257028168386,
+        "axial_centroid_correction_factor_max": 1.0789660187102186
+      },
+      {
+        "r_inner_m": 0.0484,
+        "r_outer_m": 0.050325,
+        "nodes": 48,
+        "thrust_N": 2.43877288166438,
+        "torque_Nm": 0.0867299487420749,
+        "axial_centroid_correction_factor_min": 0.8201022823877187,
+        "axial_centroid_correction_factor_max": 1.214069742191845
+      },
+      {
+        "r_inner_m": 0.050325,
+        "r_outer_m": 0.05225,
+        "nodes": 54,
+        "thrust_N": 2.66312274468937,
+        "torque_Nm": 0.0948656751688669,
+        "axial_centroid_correction_factor_min": 0.8583726624744074,
+        "axial_centroid_correction_factor_max": 1.1574906457453222
+      },
+      {
+        "r_inner_m": 0.05225,
+        "r_outer_m": 0.054175,
+        "nodes": 68,
+        "thrust_N": 2.88723947307198,
+        "torque_Nm": 0.103089193544631,
+        "axial_centroid_correction_factor_min": 0.9461716463351106,
+        "axial_centroid_correction_factor_max": 1.057098854836172
+      },
+      {
+        "r_inner_m": 0.054175,
+        "r_outer_m": 0.0561,
+        "nodes": 57,
+        "thrust_N": 3.11113516244683,
+        "torque_Nm": 0.111401889224127,
+        "axial_centroid_correction_factor_min": 0.7670731779013689,
+        "axial_centroid_correction_factor_max": 1.2998219150381973
+      },
+      {
+        "r_inner_m": 0.0561,
+        "r_outer_m": 0.058025,
+        "nodes": 72,
+        "thrust_N": 3.33490369179385,
+        "torque_Nm": 0.119807275513884,
+        "axial_centroid_correction_factor_min": 0.9025732873765032,
+        "axial_centroid_correction_factor_max": 1.1081501544432024
+      },
+      {
+        "r_inner_m": 0.058025,
+        "r_outer_m": 0.05995,
+        "nodes": 68,
+        "thrust_N": 3.55868904014043,
+        "torque_Nm": 0.128310262162797,
+        "axial_centroid_correction_factor_min": 0.8707693936381123,
+        "axial_centroid_correction_factor_max": 1.1490931893661398
+      },
+      {
+        "r_inner_m": 0.05995,
+        "r_outer_m": 0.061875,
+        "nodes": 63,
+        "thrust_N": 3.78265643364677,
+        "torque_Nm": 0.136916442275477,
+        "axial_centroid_correction_factor_min": 0.8308977463050573,
+        "axial_centroid_correction_factor_max": 1.2029937612125825
+      },
+      {
+        "r_inner_m": 0.061875,
+        "r_outer_m": 0.0638,
+        "nodes": 67,
+        "thrust_N": 4.00696857071156,
+        "torque_Nm": 0.145631474939144,
+        "axial_centroid_correction_factor_min": 0.7078317482429385,
+        "axial_centroid_correction_factor_max": 1.402197431934331
+      },
+      {
+        "r_inner_m": 0.0638,
+        "r_outer_m": 0.065725,
+        "nodes": 77,
+        "thrust_N": 4.23176779563347,
+        "torque_Nm": 0.154460601421535,
+        "axial_centroid_correction_factor_min": 0.7151730967492498,
+        "axial_centroid_correction_factor_max": 1.386691069675284
+      },
+      {
+        "r_inner_m": 0.065725,
+        "r_outer_m": 0.06765,
+        "nodes": 73,
+        "thrust_N": 4.45716409502676,
+        "torque_Nm": 0.163408303240584,
+        "axial_centroid_correction_factor_min": 0.8688720063569948,
+        "axial_centroid_correction_factor_max": 1.152200943184595
+      },
+      {
+        "r_inner_m": 0.06765,
+        "r_outer_m": 0.069575,
+        "nodes": 83,
+        "thrust_N": 4.67338708398997,
+        "torque_Nm": 0.171939449205483,
+        "axial_centroid_correction_factor_min": 0.922983750831687,
+        "axial_centroid_correction_factor_max": 1.0838234583180497
+      },
+      {
+        "r_inner_m": 0.069575,
+        "r_outer_m": 0.0715,
+        "nodes": 76,
+        "thrust_N": 4.88223684715245,
+        "torque_Nm": 0.180145968988658,
+        "axial_centroid_correction_factor_min": 0.8319111746362082,
+        "axial_centroid_correction_factor_max": 1.196954121619393
+      },
+      {
+        "r_inner_m": 0.0715,
+        "r_outer_m": 0.073425,
+        "nodes": 73,
+        "thrust_N": 5.09072911830775,
+        "torque_Nm": 0.188409573345762,
+        "axial_centroid_correction_factor_min": 0.9180831083777448,
+        "axial_centroid_correction_factor_max": 1.0875183682537792
+      },
+      {
+        "r_inner_m": 0.073425,
+        "r_outer_m": 0.07535,
+        "nodes": 85,
+        "thrust_N": 5.29889539580235,
+        "torque_Nm": 0.196732508959204,
+        "axial_centroid_correction_factor_min": 0.8286142876738881,
+        "axial_centroid_correction_factor_max": 1.203065861167921
+      },
+      {
+        "r_inner_m": 0.07535,
+        "r_outer_m": 0.077275,
+        "nodes": 81,
+        "thrust_N": 5.50672523599063,
+        "torque_Nm": 0.205115818135435,
+        "axial_centroid_correction_factor_min": 0.8094297226729247,
+        "axial_centroid_correction_factor_max": 1.2341542863454462
+      },
+      {
+        "r_inner_m": 0.077275,
+        "r_outer_m": 0.0792,
+        "nodes": 79,
+        "thrust_N": 5.7141707643559,
+        "torque_Nm": 0.213559465910226,
+        "axial_centroid_correction_factor_min": 0.8372454526019085,
+        "axial_centroid_correction_factor_max": 1.188847177785476
+      },
+      {
+        "r_inner_m": 0.0792,
+        "r_outer_m": 0.081125,
+        "nodes": 85,
+        "thrust_N": 5.92115061417436,
+        "torque_Nm": 0.222062449675135,
+        "axial_centroid_correction_factor_min": 0.881800401759414,
+        "axial_centroid_correction_factor_max": 1.134709479414437
+      },
+      {
+        "r_inner_m": 0.081125,
+        "r_outer_m": 0.08305,
+        "nodes": 81,
+        "thrust_N": 6.12755284748714,
+        "torque_Nm": 0.230622878222513,
+        "axial_centroid_correction_factor_min": 0.8945069906411813,
+        "axial_centroid_correction_factor_max": 1.1179526534432556
+      },
+      {
+        "r_inner_m": 0.08305,
+        "r_outer_m": 0.084975,
+        "nodes": 81,
+        "thrust_N": 6.33323676296365,
+        "torque_Nm": 0.239238017585166,
+        "axial_centroid_correction_factor_min": 0.8390325278090489,
+        "axial_centroid_correction_factor_max": 1.1928174070494437
+      },
+      {
+        "r_inner_m": 0.084975,
+        "r_outer_m": 0.0869,
+        "nodes": 89,
+        "thrust_N": 6.5380334651635,
+        "torque_Nm": 0.247904299616208,
+        "axial_centroid_correction_factor_min": 0.7817468406181711,
+        "axial_centroid_correction_factor_max": 1.2816442776096406
+      },
+      {
+        "r_inner_m": 0.0869,
+        "r_outer_m": 0.088825,
+        "nodes": 95,
+        "thrust_N": 6.74174519725517,
+        "torque_Nm": 0.256617293100918,
+        "axial_centroid_correction_factor_min": 0.8553302430346515,
+        "axial_centroid_correction_factor_max": 1.169311260412863
+      },
+      {
+        "r_inner_m": 0.088825,
+        "r_outer_m": 0.09075,
+        "nodes": 80,
+        "thrust_N": 6.94414356065269,
+        "torque_Nm": 0.265371640885355,
+        "axial_centroid_correction_factor_min": 0.8027318347730026,
+        "axial_centroid_correction_factor_max": 1.2481052481856543
+      },
+      {
+        "r_inner_m": 0.09075,
+        "r_outer_m": 0.092675,
+        "nodes": 100,
+        "thrust_N": 7.12154110775877,
+        "torque_Nm": 0.27280125283897,
+        "axial_centroid_correction_factor_min": 0.7989714931840499,
+        "axial_centroid_correction_factor_max": 1.2499187547625694
+      },
+      {
+        "r_inner_m": 0.092675,
+        "r_outer_m": 0.0946,
+        "nodes": 77,
+        "thrust_N": 7.29268992551514,
+        "torque_Nm": 0.279988939860434,
+        "axial_centroid_correction_factor_min": 0.8571438586725586,
+        "axial_centroid_correction_factor_max": 1.166455781749054
+      },
+      {
+        "r_inner_m": 0.0946,
+        "r_outer_m": 0.096525,
+        "nodes": 96,
+        "thrust_N": 7.46012888213914,
+        "torque_Nm": 0.287088981806954,
+        "axial_centroid_correction_factor_min": 0.979510904769306,
+        "axial_centroid_correction_factor_max": 1.0205837194895295
+      },
+      {
+        "r_inner_m": 0.096525,
+        "r_outer_m": 0.09845,
+        "nodes": 81,
+        "thrust_N": 7.62354076867636,
+        "torque_Nm": 0.294091711553863,
+        "axial_centroid_correction_factor_min": 0.8735770075227721,
+        "axial_centroid_correction_factor_max": 1.144724541411541
+      },
+      {
+        "r_inner_m": 0.09845,
+        "r_outer_m": 0.100375,
+        "nodes": 97,
+        "thrust_N": 7.78256588650389,
+        "torque_Nm": 0.30098619309139,
+        "axial_centroid_correction_factor_min": 0.898938097441329,
+        "axial_centroid_correction_factor_max": 1.1109602437619337
+      },
+      {
+        "r_inner_m": 0.100375,
+        "r_outer_m": 0.1023,
+        "nodes": 92,
+        "thrust_N": 7.93679543321061,
+        "torque_Nm": 0.307760023919843,
+        "axial_centroid_correction_factor_min": 0.791139523723257,
+        "axial_centroid_correction_factor_max": 1.267003464795927
+      },
+      {
+        "r_inner_m": 0.1023,
+        "r_outer_m": 0.104225,
+        "nodes": 92,
+        "thrust_N": 8.0857637568458,
+        "torque_Nm": 0.314399102632901,
+        "axial_centroid_correction_factor_min": 0.8294335021723268,
+        "axial_centroid_correction_factor_max": 1.2107030554104434
+      },
+      {
+        "r_inner_m": 0.104225,
+        "r_outer_m": 0.10615,
+        "nodes": 87,
+        "thrust_N": 8.22893909614133,
+        "torque_Nm": 0.320887349517503,
+        "axial_centroid_correction_factor_min": 0.9151485617547923,
+        "axial_centroid_correction_factor_max": 1.0929785456359482
+      },
+      {
+        "r_inner_m": 0.10615,
+        "r_outer_m": 0.108075,
+        "nodes": 96,
+        "thrust_N": 8.36571273672994,
+        "torque_Nm": 0.327206377433128,
+        "axial_centroid_correction_factor_min": 0.8024071835443001,
+        "axial_centroid_correction_factor_max": 1.2460919257416005
+      },
+      {
+        "r_inner_m": 0.108075,
+        "r_outer_m": 0.11,
+        "nodes": 91,
+        "thrust_N": 8.49538601335861,
+        "torque_Nm": 0.333335094379962,
+        "axial_centroid_correction_factor_min": 0.8758033258737918,
+        "axial_centroid_correction_factor_max": 1.1421217783389368
+      },
+      {
+        "r_inner_m": 0.11,
+        "r_outer_m": 0.111925,
+        "nodes": 84,
+        "thrust_N": 8.61715477853221,
+        "torque_Nm": 0.339249224788429,
+        "axial_centroid_correction_factor_min": 0.9333578765777957,
+        "axial_centroid_correction_factor_max": 1.0716651889616018
+      },
+      {
+        "r_inner_m": 0.111925,
+        "r_outer_m": 0.11385,
+        "nodes": 87,
+        "thrust_N": 8.72167079950327,
+        "torque_Nm": 0.34441029647162,
+        "axial_centroid_correction_factor_min": 0.9493140196465898,
+        "axial_centroid_correction_factor_max": 1.0535531097733037
+      },
+      {
+        "r_inner_m": 0.11385,
+        "r_outer_m": 0.115775,
+        "nodes": 91,
+        "thrust_N": 8.78118056096803,
+        "torque_Nm": 0.347157651163719,
+        "axial_centroid_correction_factor_min": 0.8672837225827489,
+        "axial_centroid_correction_factor_max": 1.1529482664332007
+      },
+      {
+        "r_inner_m": 0.115775,
+        "r_outer_m": 0.1177,
+        "nodes": 88,
+        "thrust_N": 8.8268102705899,
+        "torque_Nm": 0.349404233539439,
+        "axial_centroid_correction_factor_min": 0.8537182831821549,
+        "axial_centroid_correction_factor_max": 1.174801568870466
+      },
+      {
+        "r_inner_m": 0.1177,
+        "r_outer_m": 0.119625,
+        "nodes": 96,
+        "thrust_N": 8.85727778907155,
+        "torque_Nm": 0.351108883561461,
+        "axial_centroid_correction_factor_min": 0.8918716111085645,
+        "axial_centroid_correction_factor_max": 1.1206986372281114
+      },
+      {
+        "r_inner_m": 0.119625,
+        "r_outer_m": 0.12155,
+        "nodes": 81,
+        "thrust_N": 8.87112472929537,
+        "torque_Nm": 0.352225505212271,
+        "axial_centroid_correction_factor_min": 0.9594929055956403,
+        "axial_centroid_correction_factor_max": 1.0422324364874809
+      },
+      {
+        "r_inner_m": 0.12155,
+        "r_outer_m": 0.123475,
+        "nodes": 93,
+        "thrust_N": 8.86667904699913,
+        "torque_Nm": 0.352702003588975,
+        "axial_centroid_correction_factor_min": 0.8929760760883143,
+        "axial_centroid_correction_factor_max": 1.121311638988743
+      },
+      {
+        "r_inner_m": 0.123475,
+        "r_outer_m": 0.1254,
+        "nodes": 96,
+        "thrust_N": 8.84200500702231,
+        "torque_Nm": 0.352478839288173,
+        "axial_centroid_correction_factor_min": 0.8766254805489165,
+        "axial_centroid_correction_factor_max": 1.1388310588532056
+      },
+      {
+        "r_inner_m": 0.1254,
+        "r_outer_m": 0.127325,
+        "nodes": 70,
+        "thrust_N": 8.79483491364307,
+        "torque_Nm": 0.351487022879233,
+        "axial_centroid_correction_factor_min": 0.7137015206595108,
+        "axial_centroid_correction_factor_max": 1.4082532025423924
+      },
+      {
+        "r_inner_m": 0.127325,
+        "r_outer_m": 0.12925,
+        "nodes": 98,
+        "thrust_N": 8.72247315825196,
+        "torque_Nm": 0.349645249204943,
+        "axial_centroid_correction_factor_min": 0.7716699012363528,
+        "axial_centroid_correction_factor_max": 1.291469127049755
+      },
+      {
+        "r_inner_m": 0.12925,
+        "r_outer_m": 0.131175,
+        "nodes": 91,
+        "thrust_N": 8.62165777874562,
+        "torque_Nm": 0.346855695208747,
+        "axial_centroid_correction_factor_min": 0.9382066424877944,
+        "axial_centroid_correction_factor_max": 1.065816734269852
+      },
+      {
+        "r_inner_m": 0.131175,
+        "r_outer_m": 0.1331,
+        "nodes": 68,
+        "thrust_N": 8.48051633936906,
+        "torque_Nm": 0.342509946269989,
+        "axial_centroid_correction_factor_min": 0.7907639306911451,
+        "axial_centroid_correction_factor_max": 1.2663866923749123
+      },
+      {
+        "r_inner_m": 0.1331,
+        "r_outer_m": 0.135025,
+        "nodes": 94,
+        "thrust_N": 8.19446607514681,
+        "torque_Nm": 0.330264584109926,
+        "axial_centroid_correction_factor_min": 0.8750324913971181,
+        "axial_centroid_correction_factor_max": 1.1411436282197325
+      },
+      {
+        "r_inner_m": 0.135025,
+        "r_outer_m": 0.13695,
+        "nodes": 76,
+        "thrust_N": 7.85469591155325,
+        "torque_Nm": 0.315981551929608,
+        "axial_centroid_correction_factor_min": 0.8460063728946459,
+        "axial_centroid_correction_factor_max": 1.1888418855220833
+      },
+      {
+        "r_inner_m": 0.13695,
+        "r_outer_m": 0.138875,
+        "nodes": 71,
+        "thrust_N": 7.45396837758089,
+        "torque_Nm": 0.299440051127039,
+        "axial_centroid_correction_factor_min": 0.7920184265555772,
+        "axial_centroid_correction_factor_max": 1.2781227675641649
+      },
+      {
+        "r_inner_m": 0.138875,
+        "r_outer_m": 0.1408,
+        "nodes": 97,
+        "thrust_N": 6.98294533922494,
+        "torque_Nm": 0.280364031135422,
+        "axial_centroid_correction_factor_min": 0.843435950333097,
+        "axial_centroid_correction_factor_max": 1.1888202583534828
+      },
+      {
+        "r_inner_m": 0.1408,
+        "r_outer_m": 0.142725,
+        "nodes": 60,
+        "thrust_N": 6.42871819263866,
+        "torque_Nm": 0.258383065388017,
+        "axial_centroid_correction_factor_min": 0.6928846736264154,
+        "axial_centroid_correction_factor_max": 1.4492963195312394
+      },
+      {
+        "r_inner_m": 0.142725,
+        "r_outer_m": 0.14465,
+        "nodes": 86,
+        "thrust_N": 5.77141012587086,
+        "torque_Nm": 0.232939613297955,
+        "axial_centroid_correction_factor_min": 0.8110931046459577,
+        "axial_centroid_correction_factor_max": 1.2244007198436813
+      },
+      {
+        "r_inner_m": 0.14465,
+        "r_outer_m": 0.146575,
+        "nodes": 59,
+        "thrust_N": 4.96008387543774,
+        "torque_Nm": 0.202140505576437,
+        "axial_centroid_correction_factor_min": 0.892987130954759,
+        "axial_centroid_correction_factor_max": 1.1233760063554277
+      },
+      {
+        "r_inner_m": 0.146575,
+        "r_outer_m": 0.1485,
+        "nodes": 26,
+        "thrust_N": 3.67322932655696,
+        "torque_Nm": 0.149198641923671,
+        "axial_centroid_correction_factor_min": 0.924120610195219,
+        "axial_centroid_correction_factor_max": 1.0844567568094574
+      }
+    ],
+    "fixed_nodes": 1281,
+    "loaded_surface_nodes": 4712,
+    "centrifugal_load": "Lumped tetra mass times omega²*(x,y,0) on undeformed configuration",
+    "mesh_mass_kg": 2.710110820910392,
+    "input_sha256": "e8b74cb67c208b0773d19a223dd20b2d285e05a1d182617aeea88928ae26e131",
+    "fatigue": "NO_CALCULADO",
+    "corrosion": "NO_CALCULADO",
+    "cavitation_damage": "NO_CALCULADO",
+    "safety_factor": null,
+    "allowable_stress_Pa": null,
+    "service_approval": "NO_CALCULADO",
+    "exit_code": 0,
+    "maximum_displacement_m": 3.542058300106361e-05,
+    "maximum_integration_point_von_mises_Pa": 16929056.80215581,
+    "reaction_force_N": [
+      -0.07355039999997526,
+      -0.03656430000003319,
+      -350.34890462000004
+    ],
+    "force_balance_residual_N": [
+      -0.0665957923731764,
+      -0.024443224743926205,
+      7.960373380910823e-05
+    ],
+    "reaction_moment_Nm": [
+      -0.0003866537394449261,
+      0.014761732890675849,
+      -13.555367136200195
+    ],
+    "moment_balance_residual_Nm": [
+      2.5244451680680926e-05,
+      -0.0002941855279546147,
+      -8.911412319179135e-07
+    ],
+    "force_balance_relative_norm": 0.00020248368804778497,
+    "moment_balance_relative_norm": 2.8092752217111567e-06,
+    "data_sha256": "60819f353fd8c1123ee73aaca57e7e1f963794d159f37ec325dc046acb7f4ba5"
+  },
+  "calculix_benchmark": {
+    "status": "PASS",
+    "executable": "<local artifact path removed>",
+    "expected_stress_Pa": 10000.0,
+    "expected_displacement_m": 5e-09,
+    "expected_reaction_N": -100.0,
+    "relative_tolerance": 1e-05,
+    "input_sha256": "c9201f23f5f240a6146a6ea26b3d9d25b121fb08f0164c8404b858cdd137fbf9",
+    "scope": "Actual solver plus analytic integration check; synthetic material, no physical validation.",
+    "exit_code": 0,
+    "version": "2.22, Copyright(C) 1998-2024 Guido Dhondt",
+    "displacement_m": [
+      5e-09,
+      5e-09,
+      5e-09,
+      5e-09
+    ],
+    "stress_xx_Pa": [
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0,
+      10000.0
+    ],
+    "reaction_N": -100.0,
+    "relative_errors": {
+      "u": 0.0,
+      "s": 0.0,
+      "reaction": 0.0
+    },
+    "data_sha256": "8de462642ed4cb271684b0e25be04838d81a7a5dc7961c0fd6a81e8febdc29c1"
+  },
+  "gmsh_version": "4.15.0",
+  "candidate_id": "BASE",
+  "size_variation": {
+    "tetrahedra_ratio_fine_coarse": 2.1181636282792353,
+    "volume_difference_m3": 1.585632857729728e-06,
+    "scope": "Geometry discretization check only; no structural or CFD solution convergence."
+  }
+}

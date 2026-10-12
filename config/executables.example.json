@@ -1,0 +1,10 @@
+{
+  "powershell": "pwsh",
+  "freecad": "FreeCADCmd",
+  "matlab": "matlab",
+  "octave": "octave-cli",
+  "scilab": "Scilex",
+  "gmsh": "gmsh",
+  "calculix": "ccx",
+  "poppler": "pdftoppm"
+}

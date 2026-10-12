@@ -1,0 +1,206 @@
+{
+  "parameters": [
+    {
+      "cell": "B6",
+      "group": "geometry",
+      "key": "diameter_m",
+      "min": 0.15,
+      "max": 0.6,
+      "unit": "m"
+    },
+    {
+      "cell": "B7",
+      "group": "geometry",
+      "key": "blades",
+      "min": 3,
+      "max": 5,
+      "unit": "1"
+    },
+    {
+      "cell": "B8",
+      "group": "geometry",
+      "key": "pitch_ratio",
+      "min": 0.5,
+      "max": 1.1,
+      "unit": "1"
+    },
+    {
+      "cell": "B9",
+      "group": "geometry",
+      "key": "expanded_area_ratio",
+      "min": 0.35,
+      "max": 0.85,
+      "unit": "1"
+    },
+    {
+      "cell": "B10",
+      "group": "geometry",
+      "key": "thickness_ratio",
+      "min": 0.04,
+      "max": 0.12,
+      "unit": "1"
+    },
+    {
+      "cell": "B11",
+      "group": "geometry",
+      "key": "skew_deg",
+      "min": 0,
+      "max": 20,
+      "unit": "deg"
+    },
+    {
+      "cell": "B12",
+      "group": "geometry",
+      "key": "rake_ratio",
+      "min": 0,
+      "max": 0.08,
+      "unit": "1"
+    },
+    {
+      "cell": "B13",
+      "group": "geometry",
+      "key": "hub_ratio",
+      "min": 0.18,
+      "max": 0.28,
+      "unit": "1"
+    },
+    {
+      "cell": "B14",
+      "group": "operation",
+      "key": "rpm",
+      "min": 500,
+      "max": 1400,
+      "unit": "rpm"
+    },
+    {
+      "cell": "B15",
+      "group": "operation",
+      "key": "advance_mps",
+      "min": 1,
+      "max": 3,
+      "unit": "m/s"
+    },
+    {
+      "cell": "B16",
+      "group": "operation",
+      "key": "available_power_W",
+      "min": 100,
+      "max": 10000,
+      "unit": "W"
+    },
+    {
+      "cell": "B17",
+      "group": "operation",
+      "key": "required_thrust_N",
+      "min": 1,
+      "max": 1000,
+      "unit": "N"
+    },
+    {
+      "cell": "B18",
+      "group": "operation",
+      "key": "shaft_depth_m",
+      "min": 0.3,
+      "max": 20,
+      "unit": "m"
+    },
+    {
+      "cell": "B19",
+      "group": "operation",
+      "key": "salinity_ppt",
+      "min": 0,
+      "max": 40,
+      "unit": "ppt"
+    },
+    {
+      "cell": "B20",
+      "group": "operation",
+      "key": "water_density_kgm3",
+      "min": 990,
+      "max": 1040,
+      "unit": "kg/m³"
+    },
+    {
+      "cell": "B21",
+      "group": "operation",
+      "key": "water_kinematic_viscosity_m2s",
+      "min": 5e-7,
+      "max": 0.000002,
+      "unit": "m²/s"
+    },
+    {
+      "cell": "B22",
+      "group": "operation",
+      "key": "water_vapor_pressure_Pa",
+      "min": 500,
+      "max": 10000,
+      "unit": "Pa"
+    },
+    {
+      "cell": "B23",
+      "group": "operation",
+      "key": "ambient_pressure_Pa",
+      "min": 80000,
+      "max": 110000,
+      "unit": "Pa"
+    },
+    {
+      "cell": "B24",
+      "group": "",
+      "key": "material",
+      "min": null,
+      "max": null,
+      "unit": "id"
+    },
+    {
+      "cell": "B25",
+      "group": "objectives",
+      "key": "maximum_mass_kg",
+      "min": 0.1,
+      "max": 30,
+      "unit": "kg"
+    },
+    {
+      "cell": "B26",
+      "group": "dynamic",
+      "key": "shaft_inertia_kgm2",
+      "min": 0.001,
+      "max": 1,
+      "unit": "kg·m²"
+    },
+    {
+      "cell": "B27",
+      "group": "dynamic",
+      "key": "kp_Nm_per_radps",
+      "min": 0.01,
+      "max": 5,
+      "unit": "N·m/(rad/s)"
+    },
+    {
+      "cell": "B28",
+      "group": "dynamic",
+      "key": "ki_Nm_per_rad",
+      "min": 0.01,
+      "max": 5,
+      "unit": "N·m/rad"
+    },
+    {
+      "cell": "B29",
+      "group": "dynamic",
+      "key": "motor_torque_limit_Nm",
+      "min": 1,
+      "max": 100,
+      "unit": "N·m"
+    },
+    {
+      "cell": "B30",
+      "group": "dynamic",
+      "key": "duration_s",
+      "min": 18,
+      "max": 60,
+      "unit": "s"
+    }
+  ],
+  "radial_sheet": "Radial",
+  "radial_range": "A6:F13"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Selected distribution; no unresolved finding from this review. Not a comprehensive security certification.",
+  "files_reviewed": 129,
+  "source_machine_paths_or_secret_markers": 0,
+  "vendor_binaries_fonts_private_logs": 0,
+  "pypdf_removed": true,
+  "licenses": "MIT original work; external prerequisites keep upstream licenses",
+  "native_baseline_run": "PASS",
+  "unit_tests_passed": 12,
+  "original_laboratory_source_and_calculations_preserved": true,
+  "user_confirmed_original_workbook_save_preserved": true,
+  "public_pdf_visual_review_pages": 8,
+  "native_pdf_visual_review_pages": 11,
+  "human_validation_claimed": false
+}

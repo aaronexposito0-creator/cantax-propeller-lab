@@ -1,0 +1,171 @@
+[
+  {
+    "id": "BASE",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 5,
+      "pitch_ratio": 0.85,
+      "expanded_area_ratio": 0.55,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  },
+  {
+    "id": "B3_P074_E050",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 3,
+      "pitch_ratio": 0.74375,
+      "expanded_area_ratio": 0.5,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  },
+  {
+    "id": "B3_P074_E065",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 3,
+      "pitch_ratio": 0.74375,
+      "expanded_area_ratio": 0.65,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  },
+  {
+    "id": "B3_P096_E050",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 3,
+      "pitch_ratio": 0.95625,
+      "expanded_area_ratio": 0.5,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  },
+  {
+    "id": "B3_P096_E065",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 3,
+      "pitch_ratio": 0.95625,
+      "expanded_area_ratio": 0.65,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  },
+  {
+    "id": "B4_P074_E050",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 4,
+      "pitch_ratio": 0.74375,
+      "expanded_area_ratio": 0.5,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  },
+  {
+    "id": "B4_P074_E065",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 4,
+      "pitch_ratio": 0.74375,
+      "expanded_area_ratio": 0.65,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  },
+  {
+    "id": "B4_P096_E050",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 4,
+      "pitch_ratio": 0.95625,
+      "expanded_area_ratio": 0.5,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  },
+  {
+    "id": "B4_P096_E065",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 4,
+      "pitch_ratio": 0.95625,
+      "expanded_area_ratio": 0.65,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  },
+  {
+    "id": "B5_P074_E050",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 5,
+      "pitch_ratio": 0.74375,
+      "expanded_area_ratio": 0.5,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  },
+  {
+    "id": "B5_P074_E065",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 5,
+      "pitch_ratio": 0.74375,
+      "expanded_area_ratio": 0.65,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  },
+  {
+    "id": "B5_P096_E050",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 5,
+      "pitch_ratio": 0.95625,
+      "expanded_area_ratio": 0.5,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  },
+  {
+    "id": "B5_P096_E065",
+    "geometry": {
+      "diameter_m": 0.3,
+      "blades": 5,
+      "pitch_ratio": 0.95625,
+      "expanded_area_ratio": 0.65,
+      "thickness_ratio": 0.08,
+      "skew_deg": 12.0,
+      "rake_ratio": 0.04,
+      "hub_ratio": 0.2
+    }
+  }
+]

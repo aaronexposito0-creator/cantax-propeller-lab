@@ -1,0 +1,2438 @@
+{
+  "application": "FreeCAD",
+  "version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "status": "verified",
+  "axis": "+Z propeller shaft",
+  "length_units_internal": "mm",
+  "length_units_json": "m",
+  "models": [
+    {
+      "id": "BASE",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.3,
+        "blades": 4,
+        "pitch_ratio": 0.8,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.0003564570746956503,
+      "area_m2": 0.09637122342913945,
+      "bounding_box_m": {
+        "xmin": -0.15,
+        "xmax": 0.15,
+        "ymin": -0.15,
+        "ymax": 0.15,
+        "zmin": -0.03,
+        "zmax": 0.039693710194348676
+      },
+      "nominal_expanded_blade_area_m2": 0.03887720908817369,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.027,
+          "chord_m": 0.03659393984173294,
+          "beta_deg": 54.745100913343656,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.045,
+          "chord_m": 0.07222488126657817,
+          "beta_deg": 40.325475095727015,
+          "t_c": 0.0944,
+          "skew_m": 0.0009426156259346996,
+          "rake_m": 0.0012000000000000001
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.0675,
+          "chord_m": 0.0962998416887709,
+          "beta_deg": 29.50483759755787,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.003962950659490263,
+          "rake_m": 0.0033600000000000006
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.09,
+          "chord_m": 0.10400382902387258,
+          "beta_deg": 22.997007671790534,
+          "t_c": 0.08,
+          "skew_m": 0.00907839097849689,
+          "rake_m": 0.0057599999999999995
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.1125,
+          "chord_m": 0.09437384485499549,
+          "beta_deg": 18.753919182929568,
+          "t_c": 0.0704,
+          "skew_m": 0.016612554668387926,
+          "rake_m": 0.0084
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.132,
+          "chord_m": 0.06933588601591503,
+          "beta_deg": 16.138995988509603,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.02403606705520124,
+          "rake_m": 0.010320000000000001
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.1455,
+          "chord_m": 0.03081594934040669,
+          "beta_deg": 14.70956984192243,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.029972734149857842,
+          "rake_m": 0.011640000000000001
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.15,
+          "chord_m": 0.007703987335101673,
+          "beta_deg": 14.286608599853135,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.031883484250503316,
+          "rake_m": 0.012
+        }
+      ],
+      "tessellation_max_radius_m": 0.15000000000178698,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 4.708125366153481e-05,
+      "blade_clipped_volume_m3": 4.6945763995636264e-05,
+      "tip_clipped_volume_fraction": 0.002877783732620487,
+      "blade_clipped_surface_area_m2": 0.020201159965121895,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 9.719845807435924e-07,
+      "center_of_mass_m": [
+        7.223173640649397e-10,
+        1.051690872350566e-08,
+        0.00620928773464929
+      ],
+      "axial_mass_inertia_per_density_m5": 1.7029203579791579e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 1.5208032740144328e-16,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 0.0,
+          "bounding_box_tolerance_m": 3e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00035645707469565024,
+          "area_m2": 0.09637122342913941,
+          "bounding_box_m": {
+            "xmin": -0.15,
+            "xmax": 0.15,
+            "ymin": -0.15,
+            "ymax": 0.15,
+            "zmin": -0.03,
+            "zmax": 0.039693710194348676
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 2.33678023886016e-06,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 3.2612801348363973e-16,
+          "bounding_box_tolerance_m": 3e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00035645624173380214,
+          "area_m2": 0.09637128114566257,
+          "bounding_box_m": {
+            "xmin": -0.15,
+            "xmax": 0.15,
+            "ymin": -0.15,
+            "ymax": 0.15,
+            "zmin": -0.03,
+            "zmax": 0.039693710194349
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/BASE.FCStd",
+        "step": "cad/BASE.step",
+        "stl": "cad/BASE.stl",
+        "surface": "cad/BASE_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.03818549140313525,
+      "clipped_EAR_strip_estimate": 0.5402141965512932,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 2.723332050674768,
+      "axial_mass_inertia_kgm2": 0.013010311534960767
+    },
+    {
+      "id": "D291_B3_P072",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.291,
+        "blades": 3,
+        "pitch_ratio": 0.72,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.0003805607800698945,
+      "area_m2": 0.0893014149099618,
+      "bounding_box_m": {
+        "xmin": -0.14661185942021973,
+        "xmax": 0.1455,
+        "ymin": -0.15720774127394352,
+        "ymax": 0.11323266273074697,
+        "zmin": -0.0291,
+        "zmax": 0.046580386371220965
+      },
+      "nominal_expanded_blade_area_m2": 0.036579566031062626,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.026189999999999998,
+          "chord_m": 0.047328162195307936,
+          "beta_deg": 51.853974012777456,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.04365,
+          "chord_m": 0.09341084643810775,
+          "beta_deg": 37.37779161177815,
+          "t_c": 0.0944,
+          "skew_m": 0.0009143371571566585,
+          "rake_m": 0.001164
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.065475,
+          "chord_m": 0.12454779525081035,
+          "beta_deg": 26.989553846797836,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.003844062139705556,
+          "rake_m": 0.0032592000000000003
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.0873,
+          "chord_m": 0.13451161887087518,
+          "beta_deg": 20.905450060323783,
+          "t_c": 0.08,
+          "skew_m": 0.008806039249141981,
+          "rake_m": 0.0055872000000000005
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.109125,
+          "chord_m": 0.12205683934579413,
+          "beta_deg": 16.991972758546297,
+          "t_c": 0.0704,
+          "skew_m": 0.016114178028336288,
+          "rake_m": 0.008147999999999999
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.12804,
+          "chord_m": 0.08967441258058344,
+          "beta_deg": 14.597578624264221,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.0233149850435452,
+          "rake_m": 0.010010400000000001
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.14113499999999998,
+          "chord_m": 0.03985529448025931,
+          "beta_deg": 13.293557268856048,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.029073552125362105,
+          "rake_m": 0.011290800000000002
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.1455,
+          "chord_m": 0.009963823620064828,
+          "beta_deg": 12.908304230449948,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.030926979722988218,
+          "rake_m": 0.011640000000000001
+        }
+      ],
+      "tessellation_max_radius_m": 0.145500000029656,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 7.636555984896885e-05,
+      "blade_clipped_volume_m3": 7.556391505190433e-05,
+      "tip_clipped_volume_fraction": 0.01049746506998639,
+      "blade_clipped_surface_area_m2": 0.024878724333012317,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 9.622918500254747e-07,
+      "center_of_mass_m": [
+        6.933738836478556e-10,
+        4.469823658621768e-09,
+        0.007629603497028297
+      ],
+      "axial_mass_inertia_per_density_m5": 2.011171838419993e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 1.4244796485417886e-16,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 8.326672684688674e-17,
+          "bounding_box_tolerance_m": 2.91e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00038056078006989453,
+          "area_m2": 0.08930141490996181,
+          "bounding_box_m": {
+            "xmin": -0.1466118594202198,
+            "xmax": 0.1455,
+            "ymin": -0.15720774127394344,
+            "ymax": 0.113232662730747,
+            "zmin": -0.0291,
+            "zmax": 0.04658038637122098
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 5.473765431898098e-06,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 4.349298698969051e-14,
+          "bounding_box_tolerance_m": 2.91e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.0003805586969694518,
+          "area_m2": 0.08930143453833148,
+          "bounding_box_m": {
+            "xmin": -0.1466118594202,
+            "xmax": 0.1455,
+            "ymin": -0.15720774127390003,
+            "ymax": 0.11323266273074001,
+            "zmin": -0.0291,
+            "zmax": 0.04658038637122101
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/D291_B3_P072.FCStd",
+        "step": "cad/D291_B3_P072.step",
+        "stl": "cad/D291_B3_P072.stl",
+        "surface": "cad/D291_B3_P072_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.03474950389652692,
+      "clipped_EAR_strip_estimate": 0.5224837037940826,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 2.907484359733994,
+      "axial_mass_inertia_kgm2": 0.015365352845528745
+    },
+    {
+      "id": "D291_B3_P088",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.291,
+        "blades": 3,
+        "pitch_ratio": 0.88,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.0003806687252413009,
+      "area_m2": 0.08995255194442414,
+      "bounding_box_m": {
+        "xmin": -0.1450795463355545,
+        "xmax": 0.1455,
+        "ymin": -0.15670811123206427,
+        "ymax": 0.1131652751377518,
+        "zmin": -0.0291,
+        "zmax": 0.053880560014849796
+      },
+      "nominal_expanded_blade_area_m2": 0.036579566031062626,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.026189999999999998,
+          "chord_m": 0.047328162195307936,
+          "beta_deg": 57.27526081821595,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.04365,
+          "chord_m": 0.09341084643810775,
+          "beta_deg": 43.03656720424345,
+          "t_c": 0.0944,
+          "skew_m": 0.0009143371571566585,
+          "rake_m": 0.001164
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.065475,
+          "chord_m": 0.12454779525081035,
+          "beta_deg": 31.901135073309156,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.003844062139705556,
+          "rake_m": 0.0032592000000000003
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.0873,
+          "chord_m": 0.13451161887087518,
+          "beta_deg": 25.02573028532022,
+          "t_c": 0.08,
+          "skew_m": 0.008806039249141981,
+          "rake_m": 0.0055872000000000005
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.109125,
+          "chord_m": 0.12205683934579413,
+          "beta_deg": 20.479835582303302,
+          "t_c": 0.0704,
+          "skew_m": 0.016114178028336288,
+          "rake_m": 0.008147999999999999
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.12804,
+          "chord_m": 0.08967441258058344,
+          "beta_deg": 17.65678715141286,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.0233149850435452,
+          "rake_m": 0.010010400000000001
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.14113499999999998,
+          "chord_m": 0.03985529448025931,
+          "beta_deg": 16.107447120632166,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.029073552125362105,
+          "rake_m": 0.011290800000000002
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.1455,
+          "chord_m": 0.009963823620064828,
+          "beta_deg": 15.64823406506765,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.030926979722988218,
+          "rake_m": 0.011640000000000001
+        }
+      ],
+      "tessellation_max_radius_m": 0.1455000000094046,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 7.635955403994853e-05,
+      "blade_clipped_volume_m3": 7.562508867685302e-05,
+      "tip_clipped_volume_fraction": 0.00961851299853389,
+      "blade_clipped_surface_area_m2": 0.025127474362874876,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 1.0378675534650685e-06,
+      "center_of_mass_m": [
+        1.7355297275565e-09,
+        5.454053589703118e-09,
+        0.008420551045289817
+      ],
+      "axial_mass_inertia_per_density_m5": 1.9980637552178182e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 1.424075712810716e-16,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 8.326672684688674e-17,
+          "bounding_box_tolerance_m": 2.91e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00038066872524130096,
+          "area_m2": 0.08995255194442413,
+          "bounding_box_m": {
+            "xmin": -0.14507954633555456,
+            "xmax": 0.1455,
+            "ymin": -0.15670811123206418,
+            "ymax": 0.11316527513775185,
+            "zmin": -0.0291,
+            "zmax": 0.05388056001484981
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 4.8969832471499085e-06,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 6.428191312579656e-14,
+          "bounding_box_tolerance_m": 2.91e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.0003806668611129307,
+          "area_m2": 0.08995257813982538,
+          "bounding_box_m": {
+            "xmin": -0.1450795463355,
+            "xmax": 0.1455,
+            "ymin": -0.15670811123199999,
+            "ymax": 0.11316527513775,
+            "zmin": -0.0291,
+            "zmax": 0.05388056001485
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/D291_B3_P088.FCStd",
+        "step": "cad/D291_B3_P088.step",
+        "stl": "cad/D291_B3_P088.stl",
+        "surface": "cad/D291_B3_P088_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.03486907531635183,
+      "clipped_EAR_strip_estimate": 0.5242815458146209,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 2.9083090608435387,
+      "axial_mass_inertia_kgm2": 0.015265207089864131
+    },
+    {
+      "id": "D309_B3_P072",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.309,
+        "blades": 3,
+        "pitch_ratio": 0.72,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.0004556385965372453,
+      "area_m2": 0.10069069140592601,
+      "bounding_box_m": {
+        "xmin": -0.15568063422971778,
+        "xmax": 0.1545,
+        "ymin": -0.16693193145583676,
+        "ymax": 0.1202367449615158,
+        "zmin": -0.030900000000000004,
+        "zmax": 0.04946164738387304
+      },
+      "nominal_expanded_blade_area_m2": 0.04124483112164347,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.027809999999999998,
+          "chord_m": 0.05025567738264656,
+          "beta_deg": 51.853974012777456,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.04635,
+          "chord_m": 0.099188836939434,
+          "beta_deg": 37.37779161177815,
+          "t_c": 0.0944,
+          "skew_m": 0.0009708940947127406,
+          "rake_m": 0.0012360000000000001
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.069525,
+          "chord_m": 0.132251782585912,
+          "beta_deg": 26.989553846797836,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.004081839179274971,
+          "rake_m": 0.0034608000000000004
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.0927,
+          "chord_m": 0.14283192519278498,
+          "beta_deg": 20.905450060323783,
+          "t_c": 0.08,
+          "skew_m": 0.009350742707851795,
+          "rake_m": 0.005932799999999999
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.115875,
+          "chord_m": 0.12960674693419375,
+          "beta_deg": 16.9919727585463,
+          "t_c": 0.0704,
+          "skew_m": 0.017110931308439565,
+          "rake_m": 0.008652
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.13596,
+          "chord_m": 0.09522128346185663,
+          "beta_deg": 14.597578624264218,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.02475714906685728,
+          "rake_m": 0.0106296
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.14986500000000003,
+          "chord_m": 0.042320570427491835,
+          "beta_deg": 13.293557268856048,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.03087191617435358,
+          "rake_m": 0.011989199999999998
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.1545,
+          "chord_m": 0.010580142606872959,
+          "beta_deg": 12.908304230449948,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.032839988778018414,
+          "rake_m": 0.01236
+        }
+      ],
+      "tessellation_max_radius_m": 0.1545000000271588,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 9.143111401025654e-05,
+      "blade_clipped_volume_m3": 9.047131959481088e-05,
+      "tip_clipped_volume_fraction": 0.010497459489971828,
+      "blade_clipped_surface_area_m2": 0.028051693777010982,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 1.1521304884649582e-06,
+      "center_of_mass_m": [
+        7.281410558845325e-10,
+        4.804709675796218e-09,
+        0.008101537697106719
+      ],
+      "axial_mass_inertia_per_density_m5": 2.7150425460459255e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 1.189761118488651e-16,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 8.326672684688674e-17,
+          "bounding_box_tolerance_m": 3.09e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00045563859653724535,
+          "area_m2": 0.10069069140592603,
+          "bounding_box_m": {
+            "xmin": -0.1556806342297178,
+            "xmax": 0.1545,
+            "ymin": -0.16693193145583668,
+            "ymax": 0.12023674496151586,
+            "zmin": -0.030900000000000004,
+            "zmax": 0.049461647383873056
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 5.5718178376813296e-06,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 3.674838211509268e-14,
+          "bounding_box_tolerance_m": 3.09e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00045563605780198557,
+          "area_m2": 0.10069071232983832,
+          "bounding_box_m": {
+            "xmin": -0.1556806342297,
+            "xmax": 0.1545,
+            "ymin": -0.16693193145580001,
+            "ymax": 0.12023674496151,
+            "zmin": -0.0309,
+            "zmax": 0.049461647383873
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/D309_B3_P072.FCStd",
+        "step": "cad/D309_B3_P072.step",
+        "stl": "cad/D309_B3_P072.stl",
+        "surface": "cad/D309_B3_P072_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.039181367503268574,
+      "clipped_EAR_strip_estimate": 0.5224837037940824,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 3.481078877544554,
+      "axial_mass_inertia_kgm2": 0.020742925051790873
+    },
+    {
+      "id": "D309_B3_P088",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.309,
+        "blades": 3,
+        "pitch_ratio": 0.88,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.00045576784258633045,
+      "area_m2": 0.10142487335999743,
+      "bounding_box_m": {
+        "xmin": -0.15405353889239343,
+        "xmax": 0.1545,
+        "ymin": -0.16640139646291272,
+        "ymax": 0.12016518906379949,
+        "zmin": -0.030900000000000004,
+        "zmax": 0.05721337816009847
+      },
+      "nominal_expanded_blade_area_m2": 0.04124483112164347,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.027809999999999998,
+          "chord_m": 0.05025567738264656,
+          "beta_deg": 57.27526081821595,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.04635,
+          "chord_m": 0.099188836939434,
+          "beta_deg": 43.036567204243454,
+          "t_c": 0.0944,
+          "skew_m": 0.0009708940947127406,
+          "rake_m": 0.0012360000000000001
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.069525,
+          "chord_m": 0.132251782585912,
+          "beta_deg": 31.901135073309163,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.004081839179274971,
+          "rake_m": 0.0034608000000000004
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.0927,
+          "chord_m": 0.14283192519278498,
+          "beta_deg": 25.02573028532022,
+          "t_c": 0.08,
+          "skew_m": 0.009350742707851795,
+          "rake_m": 0.005932799999999999
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.115875,
+          "chord_m": 0.12960674693419375,
+          "beta_deg": 20.479835582303306,
+          "t_c": 0.0704,
+          "skew_m": 0.017110931308439565,
+          "rake_m": 0.008652
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.13596,
+          "chord_m": 0.09522128346185663,
+          "beta_deg": 17.65678715141286,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.02475714906685728,
+          "rake_m": 0.0106296
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.14986500000000003,
+          "chord_m": 0.042320570427491835,
+          "beta_deg": 16.107447120632166,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.03087191617435358,
+          "rake_m": 0.011989199999999998
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.1545,
+          "chord_m": 0.010580142606872959,
+          "beta_deg": 15.64823406506765,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.032839988778018414,
+          "rake_m": 0.01236
+        }
+      ],
+      "tessellation_max_radius_m": 0.1545000000095561,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 9.142392336292523e-05,
+      "blade_clipped_volume_m3": 9.054456254171351e-05,
+      "tip_clipped_volume_fraction": 0.009618497969299922,
+      "blade_clipped_surface_area_m2": 0.028332168941418878,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 1.2426132800877095e-06,
+      "center_of_mass_m": [
+        1.82498733605029e-09,
+        5.821422225756338e-09,
+        0.008941409875563083
+      ],
+      "axial_mass_inertia_per_density_m5": 2.6973469588716086e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 3.5682711827572745e-16,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 5.551115123125783e-17,
+          "bounding_box_tolerance_m": 3.09e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.0004557678425863306,
+          "area_m2": 0.10142487335999745,
+          "bounding_box_m": {
+            "xmin": -0.15405353889239345,
+            "xmax": 0.1545,
+            "ymin": -0.16640139646291266,
+            "ymax": 0.12016518906379954,
+            "zmin": -0.030900000000000004,
+            "zmax": 0.057213378160098485
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 5.010416128981141e-06,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 9.342526752220692e-14,
+          "bounding_box_tolerance_m": 3.09e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.0004557655589997809,
+          "area_m2": 0.1014249010313613,
+          "bounding_box_m": {
+            "xmin": -0.1540535388923,
+            "xmax": 0.1545,
+            "ymin": -0.1664013964629,
+            "ymax": 0.12016518906378999,
+            "zmin": -0.0309,
+            "zmax": 0.05721337816009801
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/D309_B3_P088.FCStd",
+        "step": "cad/D309_B3_P088.step",
+        "stl": "cad/D309_B3_P088.stl",
+        "surface": "cad/D309_B3_P088_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.039316188758760445,
+      "clipped_EAR_strip_estimate": 0.5242815458146215,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 3.4820663173595645,
+      "axial_mass_inertia_kgm2": 0.02060773076577909
+    },
+    {
+      "id": "D291_B4_P072",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.291,
+        "blades": 4,
+        "pitch_ratio": 0.72,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.00032535345677053666,
+      "area_m2": 0.09051511205088585,
+      "bounding_box_m": {
+        "xmin": -0.1455,
+        "xmax": 0.1455,
+        "ymin": -0.1455,
+        "ymax": 0.1455,
+        "zmin": -0.0291,
+        "zmax": 0.03566658329739788
+      },
+      "nominal_expanded_blade_area_m2": 0.036579566031062626,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.026189999999999998,
+          "chord_m": 0.03549612164648095,
+          "beta_deg": 51.853974012777456,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.04365,
+          "chord_m": 0.07005813482858082,
+          "beta_deg": 37.37779161177815,
+          "t_c": 0.0944,
+          "skew_m": 0.0009143371571566585,
+          "rake_m": 0.001164
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.065475,
+          "chord_m": 0.09341084643810776,
+          "beta_deg": 26.989553846797836,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.003844062139705556,
+          "rake_m": 0.0032592000000000003
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.0873,
+          "chord_m": 0.10088371415315639,
+          "beta_deg": 20.905450060323783,
+          "t_c": 0.08,
+          "skew_m": 0.008806039249141981,
+          "rake_m": 0.0055872000000000005
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.109125,
+          "chord_m": 0.09154262950934562,
+          "beta_deg": 16.991972758546297,
+          "t_c": 0.0704,
+          "skew_m": 0.016114178028336288,
+          "rake_m": 0.008147999999999999
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.12804,
+          "chord_m": 0.06725580943543759,
+          "beta_deg": 14.597578624264221,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.0233149850435452,
+          "rake_m": 0.010010400000000001
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.14113499999999998,
+          "chord_m": 0.02989147086019449,
+          "beta_deg": 13.293557268856048,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.029073552125362105,
+          "rake_m": 0.011290800000000002
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.1455,
+          "chord_m": 0.007472867715048622,
+          "beta_deg": 12.908304230449948,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.030926979722988218,
+          "rake_m": 0.011640000000000001
+        }
+      ],
+      "tessellation_max_radius_m": 0.14550000000157945,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 4.297164688021562e-05,
+      "blade_clipped_volume_m3": 4.28452115117872e-05,
+      "tip_clipped_volume_fraction": 0.0029422974823576364,
+      "blade_clipped_surface_area_m2": 0.01895684835616524,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 8.587160408190103e-07,
+      "center_of_mass_m": [
+        8.499674957458542e-10,
+        6.044656426478696e-09,
+        0.005753847265947466
+      ],
+      "axial_mass_inertia_per_density_m5": 1.465949723871434e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 1.6661912604945274e-16,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 0.0,
+          "bounding_box_tolerance_m": 2.91e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.0003253534567705367,
+          "area_m2": 0.09051511205088583,
+          "bounding_box_m": {
+            "xmin": -0.1455,
+            "xmax": 0.1455,
+            "ymin": -0.1455,
+            "ymax": 0.1455,
+            "zmin": -0.0291,
+            "zmax": 0.03566658329739788
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 2.1786819512085017e-06,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 1.1796119636642288e-16,
+          "bounding_box_tolerance_m": 2.91e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00032535274792883263,
+          "area_m2": 0.09051516997653417,
+          "bounding_box_m": {
+            "xmin": -0.1455,
+            "xmax": 0.1455,
+            "ymin": -0.1455,
+            "ymax": 0.1455,
+            "zmin": -0.0291,
+            "zmax": 0.035666583297398
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/D291_B4_P072.FCStd",
+        "step": "cad/D291_B4_P072.step",
+        "stl": "cad/D291_B4_P072.stl",
+        "surface": "cad/D291_B4_P072_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.03591485068913763,
+      "clipped_EAR_strip_estimate": 0.5400055282846087,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 2.4857004097269,
+      "axial_mass_inertia_kgm2": 0.011199855890377756
+    },
+    {
+      "id": "D291_B4_P088",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.291,
+        "blades": 4,
+        "pitch_ratio": 0.88,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.0003253059330520536,
+      "area_m2": 0.09083278488112433,
+      "bounding_box_m": {
+        "xmin": -0.1455,
+        "xmax": 0.1455,
+        "ymin": -0.1455,
+        "ymax": 0.1455,
+        "zmin": -0.0291,
+        "zmax": 0.041148266780306135
+      },
+      "nominal_expanded_blade_area_m2": 0.036579566031062626,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.026189999999999998,
+          "chord_m": 0.03549612164648095,
+          "beta_deg": 57.27526081821595,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.04365,
+          "chord_m": 0.07005813482858082,
+          "beta_deg": 43.03656720424345,
+          "t_c": 0.0944,
+          "skew_m": 0.0009143371571566585,
+          "rake_m": 0.001164
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.065475,
+          "chord_m": 0.09341084643810776,
+          "beta_deg": 31.901135073309156,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.003844062139705556,
+          "rake_m": 0.0032592000000000003
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.0873,
+          "chord_m": 0.10088371415315639,
+          "beta_deg": 25.02573028532022,
+          "t_c": 0.08,
+          "skew_m": 0.008806039249141981,
+          "rake_m": 0.0055872000000000005
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.109125,
+          "chord_m": 0.09154262950934562,
+          "beta_deg": 20.479835582303302,
+          "t_c": 0.0704,
+          "skew_m": 0.016114178028336288,
+          "rake_m": 0.008147999999999999
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.12804,
+          "chord_m": 0.06725580943543759,
+          "beta_deg": 17.65678715141286,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.0233149850435452,
+          "rake_m": 0.010010400000000001
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.14113499999999998,
+          "chord_m": 0.02989147086019449,
+          "beta_deg": 16.107447120632166,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.029073552125362105,
+          "rake_m": 0.011290800000000002
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.1455,
+          "chord_m": 0.007472867715048622,
+          "beta_deg": 15.64823406506765,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.030926979722988218,
+          "rake_m": 0.011640000000000001
+        }
+      ],
+      "tessellation_max_radius_m": 0.1455000000028307,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 4.296804592706039e-05,
+      "blade_clipped_volume_m3": 4.2847263617048185e-05,
+      "tip_clipped_volume_fraction": 0.0028109798201489955,
+      "blade_clipped_surface_area_m2": 0.019056261313844493,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 9.144481803460512e-07,
+      "center_of_mass_m": [
+        2.882805413350557e-10,
+        2.4538838215063793e-09,
+        0.006275848128794447
+      ],
+      "axial_mass_inertia_per_density_m5": 1.458705604216004e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 3.332869346443849e-16,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 0.0,
+          "bounding_box_tolerance_m": 2.91e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.0003253059330520537,
+          "area_m2": 0.09083278488112433,
+          "bounding_box_m": {
+            "xmin": -0.1455,
+            "xmax": 0.1455,
+            "ymin": -0.1455,
+            "ymax": 0.1455,
+            "zmin": -0.0291,
+            "zmax": 0.041148266780306135
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 5.859457902960067e-07,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 1.3183898417423734e-16,
+          "bounding_box_tolerance_m": 2.91e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.0003253057424404116,
+          "area_m2": 0.09083287140748476,
+          "bounding_box_m": {
+            "xmin": -0.1455,
+            "xmax": 0.1455,
+            "ymin": -0.1455,
+            "ymax": 0.1455,
+            "zmin": -0.0291,
+            "zmax": 0.041148266780306
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/D291_B4_P088.FCStd",
+        "step": "cad/D291_B4_P088.step",
+        "stl": "cad/D291_B4_P088.stl",
+        "surface": "cad/D291_B4_P088_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.03594339943083979,
+      "clipped_EAR_strip_estimate": 0.5404347790833429,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 2.4853373285176894,
+      "axial_mass_inertia_kgm2": 0.011144510816210271
+    },
+    {
+      "id": "D309_B4_P072",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.309,
+        "blades": 4,
+        "pitch_ratio": 0.72,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.0003895398485516063,
+      "area_m2": 0.10205917861991895,
+      "bounding_box_m": {
+        "xmin": -0.1545,
+        "xmax": 0.1545,
+        "ymin": -0.1545,
+        "ymax": 0.1545,
+        "zmin": -0.030900000000000004,
+        "zmax": 0.03787276370754647
+      },
+      "nominal_expanded_blade_area_m2": 0.04124483112164347,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.027809999999999998,
+          "chord_m": 0.03769175803698492,
+          "beta_deg": 51.853974012777456,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.04635,
+          "chord_m": 0.0743916277045755,
+          "beta_deg": 37.37779161177815,
+          "t_c": 0.0944,
+          "skew_m": 0.0009708940947127406,
+          "rake_m": 0.0012360000000000001
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.069525,
+          "chord_m": 0.099188836939434,
+          "beta_deg": 26.989553846797836,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.004081839179274971,
+          "rake_m": 0.0034608000000000004
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.0927,
+          "chord_m": 0.10712394389458872,
+          "beta_deg": 20.905450060323783,
+          "t_c": 0.08,
+          "skew_m": 0.009350742707851795,
+          "rake_m": 0.005932799999999999
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.115875,
+          "chord_m": 0.09720506020064532,
+          "beta_deg": 16.9919727585463,
+          "t_c": 0.0704,
+          "skew_m": 0.017110931308439565,
+          "rake_m": 0.008652
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.13596,
+          "chord_m": 0.07141596259639248,
+          "beta_deg": 14.597578624264218,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.02475714906685728,
+          "rake_m": 0.0106296
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.14986500000000003,
+          "chord_m": 0.03174042782061888,
+          "beta_deg": 13.293557268856048,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.03087191617435358,
+          "rake_m": 0.011989199999999998
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.1545,
+          "chord_m": 0.00793510695515472,
+          "beta_deg": 12.908304230449948,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.032839988778018414,
+          "rake_m": 0.01236
+        }
+      ],
+      "tessellation_max_radius_m": 0.15450000000313668,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 5.144918144886109e-05,
+      "blade_clipped_volume_m3": 5.129780247531103e-05,
+      "tip_clipped_volume_fraction": 0.002942300912999629,
+      "blade_clipped_surface_area_m2": 0.02137455648445695,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 1.0281295909153997e-06,
+      "center_of_mass_m": [
+        9.056036187865101e-10,
+        6.289202475232752e-09,
+        0.00610975538993005
+      ],
+      "axial_mass_inertia_per_density_m5": 1.979003307586655e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 0.0,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 0.0,
+          "bounding_box_tolerance_m": 3.09e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.0003895398485516063,
+          "area_m2": 0.10205917861991892,
+          "bounding_box_m": {
+            "xmin": -0.1545,
+            "xmax": 0.1545,
+            "ymin": -0.1545,
+            "ymax": 0.1545,
+            "zmin": -0.030900000000000004,
+            "zmax": 0.03787276370754647
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 2.257310210847006e-06,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 4.718447854656915e-16,
+          "bounding_box_tolerance_m": 3.09e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00038953896923932864,
+          "area_m2": 0.10205924421045996,
+          "bounding_box_m": {
+            "xmin": -0.1545,
+            "xmax": 0.1545,
+            "ymin": -0.1545,
+            "ymax": 0.1545,
+            "zmin": -0.0309,
+            "zmax": 0.037872763707546
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/D309_B4_P072.FCStd",
+        "step": "cad/D309_B4_P072.step",
+        "stl": "cad/D309_B4_P072.stl",
+        "surface": "cad/D309_B4_P072_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.040495339670641034,
+      "clipped_EAR_strip_estimate": 0.5400055282846091,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 2.976084442934272,
+      "axial_mass_inertia_kgm2": 0.015119585269962044
+    },
+    {
+      "id": "D309_B4_P088",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.309,
+        "blades": 4,
+        "pitch_ratio": 0.88,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.00038948301712956733,
+      "area_m2": 0.10241737353219461,
+      "bounding_box_m": {
+        "xmin": -0.1545,
+        "xmax": 0.1545,
+        "ymin": -0.1545,
+        "ymax": 0.1545,
+        "zmin": -0.030900000000000004,
+        "zmax": 0.04369352039558298
+      },
+      "nominal_expanded_blade_area_m2": 0.04124483112164347,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.027809999999999998,
+          "chord_m": 0.03769175803698492,
+          "beta_deg": 57.27526081821595,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.04635,
+          "chord_m": 0.0743916277045755,
+          "beta_deg": 43.036567204243454,
+          "t_c": 0.0944,
+          "skew_m": 0.0009708940947127406,
+          "rake_m": 0.0012360000000000001
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.069525,
+          "chord_m": 0.099188836939434,
+          "beta_deg": 31.901135073309163,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.004081839179274971,
+          "rake_m": 0.0034608000000000004
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.0927,
+          "chord_m": 0.10712394389458872,
+          "beta_deg": 25.02573028532022,
+          "t_c": 0.08,
+          "skew_m": 0.009350742707851795,
+          "rake_m": 0.005932799999999999
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.115875,
+          "chord_m": 0.09720506020064532,
+          "beta_deg": 20.479835582303306,
+          "t_c": 0.0704,
+          "skew_m": 0.017110931308439565,
+          "rake_m": 0.008652
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.13596,
+          "chord_m": 0.07141596259639248,
+          "beta_deg": 17.65678715141286,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.02475714906685728,
+          "rake_m": 0.0106296
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.14986500000000003,
+          "chord_m": 0.03174042782061888,
+          "beta_deg": 16.107447120632166,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.03087191617435358,
+          "rake_m": 0.011989199999999998
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.1545,
+          "chord_m": 0.00793510695515472,
+          "beta_deg": 15.64823406506765,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.032839988778018414,
+          "rake_m": 0.01236
+        }
+      ],
+      "tessellation_max_radius_m": 0.15450000000330769,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 5.144487009228735e-05,
+      "blade_clipped_volume_m3": 5.1300259669397814e-05,
+      "tip_clipped_volume_fraction": 0.002810978482988058,
+      "blade_clipped_surface_area_m2": 0.021486648469861522,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 1.094789789301518e-06,
+      "center_of_mass_m": [
+        3.584822285237369e-10,
+        4.760468478775583e-09,
+        0.006664043497050131
+      ],
+      "axial_mass_inertia_per_density_m5": 1.9692239633759906e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 0.0,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 0.0,
+          "bounding_box_tolerance_m": 3.09e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00038948301712956733,
+          "area_m2": 0.10241737353219464,
+          "bounding_box_m": {
+            "xmin": -0.1545,
+            "xmax": 0.1545,
+            "ymin": -0.1545,
+            "ymax": 0.1545,
+            "zmin": -0.030900000000000004,
+            "zmax": 0.04369352039558298
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 1.495395671938842e-06,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 2.0816681711721685e-17,
+          "bounding_box_tolerance_m": 3.09e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.0003894824346983492,
+          "area_m2": 0.10241746607876016,
+          "bounding_box_m": {
+            "xmin": -0.1545,
+            "xmax": 0.1545,
+            "ymin": -0.1545,
+            "ymax": 0.1545,
+            "zmin": -0.0309,
+            "zmax": 0.043693520395583
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/D309_B4_P088.FCStd",
+        "step": "cad/D309_B4_P088.step",
+        "stl": "cad/D309_B4_P088.stl",
+        "surface": "cad/D309_B4_P088_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.04052752944646405,
+      "clipped_EAR_strip_estimate": 0.5404347790833443,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 2.9756502508698945,
+      "axial_mass_inertia_kgm2": 0.01504487108019257
+    },
+    {
+      "id": "D291_B5_P072",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.291,
+        "blades": 5,
+        "pitch_ratio": 0.72,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.00029136411700145996,
+      "area_m2": 0.0905148996442786,
+      "bounding_box_m": {
+        "xmin": -0.14325307770563442,
+        "xmax": 0.1455,
+        "ymin": -0.12927592013802566,
+        "ymax": 0.14939363180638607,
+        "zmin": -0.0291,
+        "zmax": 0.02913809310393018
+      },
+      "nominal_expanded_blade_area_m2": 0.036579566031062626,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.026189999999999998,
+          "chord_m": 0.028396897317184762,
+          "beta_deg": 51.853974012777456,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.04365,
+          "chord_m": 0.056046507862864664,
+          "beta_deg": 37.37779161177815,
+          "t_c": 0.0944,
+          "skew_m": 0.0009143371571566585,
+          "rake_m": 0.001164
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.065475,
+          "chord_m": 0.07472867715048623,
+          "beta_deg": 26.989553846797836,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.003844062139705556,
+          "rake_m": 0.0032592000000000003
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.0873,
+          "chord_m": 0.08070697132252512,
+          "beta_deg": 20.905450060323783,
+          "t_c": 0.08,
+          "skew_m": 0.008806039249141981,
+          "rake_m": 0.0055872000000000005
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.109125,
+          "chord_m": 0.0732341036074765,
+          "beta_deg": 16.991972758546297,
+          "t_c": 0.0704,
+          "skew_m": 0.016114178028336288,
+          "rake_m": 0.008147999999999999
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.12804,
+          "chord_m": 0.05380464754835008,
+          "beta_deg": 14.597578624264221,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.0233149850435452,
+          "rake_m": 0.010010400000000001
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.14113499999999998,
+          "chord_m": 0.023913176688155593,
+          "beta_deg": 13.293557268856048,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.029073552125362105,
+          "rake_m": 0.011290800000000002
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.1455,
+          "chord_m": 0.005978294172038898,
+          "beta_deg": 12.908304230449948,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.030926979722988218,
+          "rake_m": 0.011640000000000001
+        }
+      ],
+      "tessellation_max_radius_m": 0.14550000000100016,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 2.7507328004850826e-05,
+      "blade_clipped_volume_m3": 2.746022318687794e-05,
+      "tip_clipped_volume_fraction": 0.0017124461512429967,
+      "blade_clipped_surface_area_m2": 0.015162193144751677,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 7.683256971366937e-07,
+      "center_of_mass_m": [
+        -7.223765009880137e-10,
+        1.2108273631268313e-08,
+        0.004593418835766178
+      ],
+      "axial_mass_inertia_per_density_m5": 1.1556054501987913e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 0.0,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 5.551115123125783e-17,
+          "bounding_box_tolerance_m": 2.91e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00029136411700145996,
+          "area_m2": 0.09051489964427857,
+          "bounding_box_m": {
+            "xmin": -0.1432530777056344,
+            "xmax": 0.1455,
+            "ymin": -0.12927592013802572,
+            "ymax": 0.1493936318063861,
+            "zmin": -0.0291,
+            "zmax": 0.029138093103930188
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 5.983596021181433e-07,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 3.441691376337985e-14,
+          "bounding_box_tolerance_m": 2.91e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.0002913642913419771,
+          "area_m2": 0.09051496586625829,
+          "bounding_box_m": {
+            "xmin": -0.1432530777056,
+            "xmax": 0.1455,
+            "ymin": -0.12927592013800002,
+            "ymax": 0.14939363180638,
+            "zmin": -0.0291,
+            "zmax": 0.02913809310393
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/D291_B5_P072.FCStd",
+        "step": "cad/D291_B5_P072.step",
+        "stl": "cad/D291_B5_P072.stl",
+        "surface": "cad/D291_B5_P072_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.036171234231879464,
+      "clipped_EAR_strip_estimate": 0.543860438656926,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 2.226021853891154,
+      "axial_mass_inertia_kgm2": 0.008828825639518766
+    },
+    {
+      "id": "D291_B5_P088",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.291,
+        "blades": 5,
+        "pitch_ratio": 0.88,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.000291320717993489,
+      "area_m2": 0.09072001061794951,
+      "bounding_box_m": {
+        "xmin": -0.14307586644586262,
+        "xmax": 0.1455,
+        "ymin": -0.12927129960257056,
+        "ymax": 0.14935962143956,
+        "zmin": -0.0291,
+        "zmax": 0.03352507175621817
+      },
+      "nominal_expanded_blade_area_m2": 0.036579566031062626,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.026189999999999998,
+          "chord_m": 0.028396897317184762,
+          "beta_deg": 57.27526081821595,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.04365,
+          "chord_m": 0.056046507862864664,
+          "beta_deg": 43.03656720424345,
+          "t_c": 0.0944,
+          "skew_m": 0.0009143371571566585,
+          "rake_m": 0.001164
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.065475,
+          "chord_m": 0.07472867715048623,
+          "beta_deg": 31.901135073309156,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.003844062139705556,
+          "rake_m": 0.0032592000000000003
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.0873,
+          "chord_m": 0.08070697132252512,
+          "beta_deg": 25.02573028532022,
+          "t_c": 0.08,
+          "skew_m": 0.008806039249141981,
+          "rake_m": 0.0055872000000000005
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.109125,
+          "chord_m": 0.0732341036074765,
+          "beta_deg": 20.479835582303302,
+          "t_c": 0.0704,
+          "skew_m": 0.016114178028336288,
+          "rake_m": 0.008147999999999999
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.12804,
+          "chord_m": 0.05380464754835008,
+          "beta_deg": 17.65678715141286,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.0233149850435452,
+          "rake_m": 0.010010400000000001
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.14113499999999998,
+          "chord_m": 0.023913176688155593,
+          "beta_deg": 16.107447120632166,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.029073552125362105,
+          "rake_m": 0.011290800000000002
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.1455,
+          "chord_m": 0.005978294172038898,
+          "beta_deg": 15.64823406506765,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.030926979722988218,
+          "rake_m": 0.011640000000000001
+        }
+      ],
+      "tessellation_max_radius_m": 0.14550000000398255,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 2.7505242345060908e-05,
+      "blade_clipped_volume_m3": 2.7459168635905752e-05,
+      "tip_clipped_volume_fraction": 0.0016750882823408642,
+      "blade_clipped_surface_area_m2": 0.015215816260546872,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 8.064519502466429e-07,
+      "center_of_mass_m": [
+        -1.6522531975265173e-09,
+        -1.5118604482193338e-09,
+        0.004966452735050682
+      ],
+      "axial_mass_inertia_per_density_m5": 1.151606570075979e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 0.0,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 5.551115123125783e-17,
+          "bounding_box_tolerance_m": 2.91e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.000291320717993489,
+          "area_m2": 0.0907200106179495,
+          "bounding_box_m": {
+            "xmin": -0.1430758664458626,
+            "xmax": 0.1455,
+            "ymin": -0.1292712996025706,
+            "ymax": 0.14935962143956003,
+            "zmin": -0.0291,
+            "zmax": 0.033525071756218175
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 7.522097565583364e-06,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 7.05546732149287e-14,
+          "bounding_box_tolerance_m": 2.91e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.0002913185266506254,
+          "area_m2": 0.0907198252810747,
+          "bounding_box_m": {
+            "xmin": -0.1430758664458,
+            "xmax": 0.1455,
+            "ymin": -0.1292712996025,
+            "ymax": 0.14935962143956,
+            "zmin": -0.0291,
+            "zmax": 0.033525071756217995
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/D291_B5_P088.FCStd",
+        "step": "cad/D291_B5_P088.step",
+        "stl": "cad/D291_B5_P088.stl",
+        "surface": "cad/D291_B5_P088_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.03617829149176616,
+      "clipped_EAR_strip_estimate": 0.5439665496188325,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 2.225690285470256,
+      "axial_mass_inertia_kgm2": 0.008798274195380481
+    },
+    {
+      "id": "D309_B5_P072",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.309,
+        "blades": 5,
+        "pitch_ratio": 0.72,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.00034884501964823104,
+      "area_m2": 0.10205893909881153,
+      "bounding_box_m": {
+        "xmin": -0.15211409282144797,
+        "xmax": 0.1545,
+        "ymin": -0.13727236880635713,
+        "ymax": 0.15863447501090372,
+        "zmin": -0.030900000000000004,
+        "zmax": 0.03094044937840103
+      },
+      "nominal_expanded_blade_area_m2": 0.04124483112164347,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.027809999999999998,
+          "chord_m": 0.030153406429587935,
+          "beta_deg": 51.853974012777456,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.04635,
+          "chord_m": 0.0595133021636604,
+          "beta_deg": 37.37779161177815,
+          "t_c": 0.0944,
+          "skew_m": 0.0009708940947127406,
+          "rake_m": 0.0012360000000000001
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.069525,
+          "chord_m": 0.0793510695515472,
+          "beta_deg": 26.989553846797836,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.004081839179274971,
+          "rake_m": 0.0034608000000000004
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.0927,
+          "chord_m": 0.08569915511567097,
+          "beta_deg": 20.905450060323783,
+          "t_c": 0.08,
+          "skew_m": 0.009350742707851795,
+          "rake_m": 0.005932799999999999
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.115875,
+          "chord_m": 0.07776404816051626,
+          "beta_deg": 16.9919727585463,
+          "t_c": 0.0704,
+          "skew_m": 0.017110931308439565,
+          "rake_m": 0.008652
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.13596,
+          "chord_m": 0.05713277007711398,
+          "beta_deg": 14.597578624264218,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.02475714906685728,
+          "rake_m": 0.0106296
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.14986500000000003,
+          "chord_m": 0.025392342256495105,
+          "beta_deg": 13.293557268856048,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.03087191617435358,
+          "rake_m": 0.011989199999999998
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.1545,
+          "chord_m": 0.006348085564123776,
+          "beta_deg": 12.908304230449948,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.032839988778018414,
+          "rake_m": 0.01236
+        }
+      ],
+      "tessellation_max_radius_m": 0.1545000000006627,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 3.293403005102242e-05,
+      "blade_clipped_volume_m3": 3.2877632477135224e-05,
+      "tip_clipped_volume_fraction": 0.00171244071253418,
+      "blade_clipped_surface_area_m2": 0.01709594073435384,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 9.199109787226772e-07,
+      "center_of_mass_m": [
+        -7.636758277099799e-10,
+        1.2616108165805416e-08,
+        0.00487754803962694
+      ],
+      "axial_mass_inertia_per_density_m5": 1.5600446851686547e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 3.1079766412568945e-16,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 8.326672684688674e-17,
+          "bounding_box_tolerance_m": 3.09e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00034884501964823093,
+          "area_m2": 0.10205893909881152,
+          "bounding_box_m": {
+            "xmin": -0.15211409282144794,
+            "xmax": 0.1545,
+            "ymin": -0.1372723688063572,
+            "ymax": 0.15863447501090375,
+            "zmin": -0.030900000000000004,
+            "zmax": 0.030940449378401038
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 5.430866692278161e-07,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 5.71209746169643e-14,
+          "bounding_box_tolerance_m": 3.09e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00034884520910131084,
+          "area_m2": 0.10205901460776819,
+          "bounding_box_m": {
+            "xmin": -0.15211409282139998,
+            "xmax": 0.1545,
+            "ymin": -0.1372723688063,
+            "ymax": 0.1586344750109,
+            "zmin": -0.0309,
+            "zmax": 0.030940449378401
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/D309_B5_P072.FCStd",
+        "step": "cad/D309_B5_P072.step",
+        "stl": "cad/D309_B5_P072.stl",
+        "surface": "cad/D309_B5_P072_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.04078442172026867,
+      "clipped_EAR_strip_estimate": 0.543860438656924,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 2.665175950112485,
+      "axial_mass_inertia_kgm2": 0.011918741394688522
+    },
+    {
+      "id": "D309_B5_P088",
+      "status": "verified",
+      "application": "FreeCAD",
+      "geometry": {
+        "diameter_m": 0.309,
+        "blades": 5,
+        "pitch_ratio": 0.88,
+        "expanded_area_ratio": 0.55,
+        "thickness_ratio": 0.08,
+        "skew_deg": 12.0,
+        "rake_ratio": 0.04,
+        "hub_ratio": 0.2
+      },
+      "valid": true,
+      "closed": true,
+      "shape_type": "Solid",
+      "wrapper_closed_flag": true,
+      "solids": 1,
+      "volume_m3": 0.0003487929494411454,
+      "area_m2": 0.10229019896157468,
+      "bounding_box_m": {
+        "xmin": -0.1519259200404502,
+        "xmax": 0.1545,
+        "ymin": -0.1372674624645852,
+        "ymax": 0.1585983609100499,
+        "zmin": -0.030900000000000004,
+        "zmax": 0.035598787534952325
+      },
+      "nominal_expanded_blade_area_m2": 0.04124483112164347,
+      "radial_sections": [
+        {
+          "r_R": 0.18,
+          "r_m": 0.027809999999999998,
+          "chord_m": 0.030153406429587935,
+          "beta_deg": 57.27526081821595,
+          "t_c": 0.1,
+          "skew_m": 0.0,
+          "rake_m": 0.0
+        },
+        {
+          "r_R": 0.3,
+          "r_m": 0.04635,
+          "chord_m": 0.0595133021636604,
+          "beta_deg": 43.036567204243454,
+          "t_c": 0.0944,
+          "skew_m": 0.0009708940947127406,
+          "rake_m": 0.0012360000000000001
+        },
+        {
+          "r_R": 0.45,
+          "r_m": 0.069525,
+          "chord_m": 0.0793510695515472,
+          "beta_deg": 31.901135073309163,
+          "t_c": 0.08800000000000001,
+          "skew_m": 0.004081839179274971,
+          "rake_m": 0.0034608000000000004
+        },
+        {
+          "r_R": 0.6,
+          "r_m": 0.0927,
+          "chord_m": 0.08569915511567097,
+          "beta_deg": 25.02573028532022,
+          "t_c": 0.08,
+          "skew_m": 0.009350742707851795,
+          "rake_m": 0.005932799999999999
+        },
+        {
+          "r_R": 0.75,
+          "r_m": 0.115875,
+          "chord_m": 0.07776404816051626,
+          "beta_deg": 20.479835582303306,
+          "t_c": 0.0704,
+          "skew_m": 0.017110931308439565,
+          "rake_m": 0.008652
+        },
+        {
+          "r_R": 0.88,
+          "r_m": 0.13596,
+          "chord_m": 0.05713277007711398,
+          "beta_deg": 17.65678715141286,
+          "t_c": 0.062400000000000004,
+          "skew_m": 0.02475714906685728,
+          "rake_m": 0.0106296
+        },
+        {
+          "r_R": 0.97,
+          "r_m": 0.14986500000000003,
+          "chord_m": 0.025392342256495105,
+          "beta_deg": 16.107447120632166,
+          "t_c": 0.054400000000000004,
+          "skew_m": 0.03087191617435358,
+          "rake_m": 0.011989199999999998
+        },
+        {
+          "r_R": 1.0,
+          "r_m": 0.1545,
+          "chord_m": 0.006348085564123776,
+          "beta_deg": 15.64823406506765,
+          "t_c": 0.052000000000000005,
+          "skew_m": 0.032839988778018414,
+          "rake_m": 0.01236
+        }
+      ],
+      "tessellation_max_radius_m": 0.1545000000027797,
+      "tip_envelope_check_passed": true,
+      "blade_unclipped_volume_m3": 3.293153292799444e-05,
+      "blade_clipped_volume_m3": 3.2876369831680154e-05,
+      "tip_clipped_volume_fraction": 0.0016750843768765789,
+      "blade_clipped_surface_area_m2": 0.017156402818607377,
+      "blade_overlap_outside_hub_m3": 0.0,
+      "hub_blade_intersection_volume_m3": 9.65667958532984e-07,
+      "center_of_mass_m": [
+        -1.6767839035397228e-09,
+        -5.253545104542933e-09,
+        0.005273658841358025
+      ],
+      "axial_mass_inertia_per_density_m5": 1.5546462091163873e-06,
+      "roundtrip_checks": [
+        {
+          "format": "FCStd",
+          "passed": true,
+          "relative_volume_error": 0.0,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 8.326672684688674e-17,
+          "bounding_box_tolerance_m": 3.09e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.0003487929494411454,
+          "area_m2": 0.10229019896157465,
+          "bounding_box_m": {
+            "xmin": -0.15192592004045016,
+            "xmax": 0.1545,
+            "ymin": -0.1372674624645853,
+            "ymax": 0.15859836091004995,
+            "zmin": -0.030900000000000004,
+            "zmax": 0.03559878753495233
+          }
+        },
+        {
+          "format": "STEP",
+          "passed": true,
+          "relative_volume_error": 7.251421820066992e-06,
+          "volume_relative_tolerance": 0.0001,
+          "maximum_bounding_box_coordinate_error_m": 8.520961713998076e-14,
+          "bounding_box_tolerance_m": 3.09e-06,
+          "valid": true,
+          "closed": true,
+          "shape_type": "Solid",
+          "wrapper_closed_flag": true,
+          "solids": 1,
+          "volume_m3": 0.00034879042019634113,
+          "area_m2": 0.10229000155489049,
+          "bounding_box_m": {
+            "xmin": -0.1519259200404,
+            "xmax": 0.1545,
+            "ymin": -0.1372674624645,
+            "ymax": 0.15859836091005,
+            "zmin": -0.0309,
+            "zmax": 0.035598787534952006
+          }
+        }
+      ],
+      "unit_mapping": {
+        "CAD": "mm",
+        "public_outputs": "SI",
+        "volume_multiplier": 1e-09,
+        "area_multiplier": 1e-06,
+        "mass_moment_multiplier": 1e-15
+      },
+      "artifacts": {
+        "fcstd": "cad/D309_B5_P088.FCStd",
+        "step": "cad/D309_B5_P088.step",
+        "stl": "cad/D309_B5_P088.stl",
+        "surface": "cad/D309_B5_P088_surface.json"
+      },
+      "clipped_expanded_area_strip_estimate_m2": 0.04079237904518512,
+      "clipped_EAR_strip_estimate": 0.543966549618832,
+      "strip_estimate_method": "2000 intervals, linear radial recipe, mid-thickness chord clipped by reference cylinder; excludes thickness, hub occlusion and OCC loft interpolation",
+      "material_density_kgm3": 7640.0,
+      "mass_kg": 2.664778133730351,
+      "axial_mass_inertia_kgm2": 0.011877497037649199
+    }
+  ],
+  "verified_count": 13
+}

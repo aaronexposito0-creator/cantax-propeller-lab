@@ -1,0 +1,9 @@
+# Preserve reviewed bytes and their publication SHA-256 values across checkouts.
+# Python/MATLAB/Scilab accept the original text line endings.
+* -text
+*.pdf binary
+*.png binary
+*.gif binary
+*.xlsx binary
+*.FCStd binary
+*.step binary
